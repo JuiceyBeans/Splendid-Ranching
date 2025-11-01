@@ -1,0 +1,65 @@
+{
+  "carvers": {
+  },
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "alexscaves:abyssal_chasm_ambience",
+    "additions_sound": {
+      "sound": "alexscaves:abyssal_chasm_ambience_additions",
+      "tick_chance": 0.01
+    },
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "alexscaves:abyssal_chasm_ambience_mood",
+      "tick_delay": 6000
+    },
+    "fog_color": 3884,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "alexscaves:abyssal_chasm_music"
+    },
+    "sky_color": 8103167,
+    "water_color": 5451,
+    "water_fog_color": 3623
+  },
+  "has_precipitation": true,
+  "features": [
+    [ ],
+    [ ],
+    [
+      "alexscaves:abyssal_boulder"
+    ],
+    [
+      "alexscaves:black_vent",
+      "alexscaves:whalefall"
+    ],
+    [
+      "alexscaves:deep_one_ruins"
+    ],
+    [ ],
+    [ ],
+    [ ],
+    [ ],
+    [ ],
+    [
+      "minecraft:freeze_top_layer",
+      "alexscaves:fill_in_bubbles_with_water"
+    ]
+  ],
+  "spawn_costs": { },
+  "spawners": {
+    "ambient": [ ],
+    "axolotls": [ ],
+    "creature": [ ],
+    "misc": [ ],
+    "monster": [ ],
+    "underground_water_creature": [ ],
+    "water_ambient": [ ],
+    "water_creature": [ ],
+    "alexscaves:deep_sea_creature": [ ]
+  },
+  "temperature": 0.5
+}
