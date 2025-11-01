@@ -1,7 +1,6 @@
 {
     "name": "packjampack",
     "version": "1.0.0",
-    "release_type": "release",
     "description": "A template pack",
     "author": "Deepacat, Meeprdib, Vnator",
     "overrides": [
