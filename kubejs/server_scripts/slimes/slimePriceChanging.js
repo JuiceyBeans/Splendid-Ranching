@@ -6,8 +6,10 @@ ServerEvents.loaded(e => {
     }
 })
 
-ItemEvents.firstRightClicked('minecraft:iron_sword', e => {
-    e.player.sendData('kubejs:slime_data', e.server.persistentData['slime_data'])
+PlayerEvents.tick(e => {
+    if(Utils.server.tickCount % 200 === 0) {
+        e.player.sendData('kubejs:slime_data', e.server.persistentData['slime_data'])
+    }
 })
 
 ItemEvents.firstLeftClicked('minecraft:iron_sword', e => {
