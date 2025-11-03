@@ -1,23 +1,25 @@
 Slimes to fit
 - Minty (Dragon breath)
-- Orby (Experience)
+- Orby (Experience) *
 - Phantom 
 - Prisma (Prismarine)
-- Puddle 
+- Puddle *
 - Rotting (Zombie)
 - Shulking (Shulker)
-- Slimy (Base, pink)
-- Sweet (Sugar)
-- Webby (Cobweb/string)
-- Weeping (ghast tear, crying obsidian)
-- Luminous (Glowstone)
-- All-seeing (spider eye)
-- Bitwise (Redstone)
-- Blazing (Blaze)
-- Bony (Skeleton)
-- Boomcat (Gunpowder)
+- Slimy (Base, pink) *
+- Sweet (Sugar) *
+- Webby (Cobweb/string) *
+- Weeping (ghast tear, crying obsidian) *
+- Luminous (Glowstone) *
+- All-seeing (spider eye) *
+- Bitwise (Redstone) *
+- Blazing (Blaze) *
+- Bony (Skeleton) *
+- Boomcat (Gunpowder) *
 - Ender 
 - Gold
+
+* - In use
 
 Biome Entry
 - Biome description
@@ -27,18 +29,20 @@ Biome Entry
 Aboveground
 - Ancient ruins
 	- Mysterious ruins with ancient unnatural structures
-	- 
+	- Minty, 
 - Dry reef
 	- Arid and wind-swept rocklands
-	- 
+	- Slimy, Sweet, Boomcat, 
 - Indigo quarry
 	- Winding network of cliffs with crystal formations
+	- Bitwise, All-Seeing, Webby, Weeping
 	- 
 - Magma Mounts
 	- A scorching high up volcanic environment
-	- 
+	- Blazing, Bony, Luminous, 
 - Opal desert
 	- A curious odd desert, far dunes with large crystals pertruding form the sands
+	- Puddle, Orby, Luminous, Gold
 	- 
 - The wilds
 	- A lush collection of ancient untamed islands
