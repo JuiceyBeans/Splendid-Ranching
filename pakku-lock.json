@@ -616,6 +616,42 @@
             ]
         },
         {
+            "pakku_id": "E1vujA7ULJx9e7WV",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "building-gadgets"
+            },
+            "name": {
+                "curseforge": "Building Gadgets"
+            },
+            "id": {
+                "curseforge": "298187"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "buildinggadgets2-1.0.8.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6850/495/buildinggadgets2-1.0.8.jar",
+                    "id": "6850495",
+                    "parent_id": "298187",
+                    "hashes": {
+                        "sha1": "d06a806e8ca84a9e96a69c32da4b43226a51e0c9",
+                        "md5": "8e804b7a62c8011375e5821ad2a9dc07"
+                    },
+                    "required_dependencies": [],
+                    "size": 3833683,
+                    "date_published": "2025-08-05T11:25:05.983Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "69UNwKHRNNeAG6Z5",
             "type": "MOD",
             "slug": {
@@ -650,6 +686,43 @@
                     "required_dependencies": [],
                     "size": 40125,
                     "date_published": "2024-04-22T07:58:30.183Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "tiG2dpYIyvzJTHVY",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "charging-gadgets"
+            },
+            "name": {
+                "curseforge": "Charging Gadgets"
+            },
+            "id": {
+                "curseforge": "399757"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "charginggadgets-1.11.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4617/304/charginggadgets-1.11.0.jar",
+                    "id": "4617304",
+                    "parent_id": "399757",
+                    "hashes": {
+                        "sha1": "22b62a40bbac0a7ccf9b982e63a492a23e9da294",
+                        "md5": "9161d12f07cc925974e91e238bb96c52"
+                    },
+                    "required_dependencies": [],
+                    "size": 67599,
+                    "date_published": "2023-06-30T08:26:36.347Z"
                 }
             ]
         },
@@ -2990,6 +3063,43 @@
                     "required_dependencies": [],
                     "size": 37178,
                     "date_published": "2024-02-15T10:46:05.407Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "O1InTjFLcaF8Wca5",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mining-gadgets"
+            },
+            "name": {
+                "curseforge": "Mining Gadgets"
+            },
+            "id": {
+                "curseforge": "351748"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mininggadgets-1.15.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4864/220/mininggadgets-1.15.6.jar",
+                    "id": "4864220",
+                    "parent_id": "351748",
+                    "hashes": {
+                        "sha1": "79cfc6e0afc3ed3fc86bbda274ef3fccdc8260dd",
+                        "md5": "282e5d04cc69205158e85754938b51d7"
+                    },
+                    "required_dependencies": [],
+                    "size": 642638,
+                    "date_published": "2023-11-13T13:09:33.917Z"
                 }
             ]
         },
