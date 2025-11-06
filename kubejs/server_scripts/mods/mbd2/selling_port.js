@@ -46,7 +46,7 @@ MBDMachineEvents.onUI("mbd2:selling_port", e => {
         slots.push(root.getFirstWidgetById(`item_slot_${i}`))
     }
 
-    label.setTextProvider(() => `sells for §6${machine.customData.getInt("sell_price")}§a¤`)
+    label.setTextProvider(() => `sells for §b${machine.customData.getInt("sell_price")}§d☻`)
 
     button.setOnPressCallback(clickData => {
         if (clickData.isRemote) { return }
