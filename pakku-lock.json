@@ -800,6 +800,42 @@
             ]
         },
         {
+            "pakku_id": "bLDwlTjItGhdP6GS",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "configured"
+            },
+            "name": {
+                "curseforge": "Configured"
+            },
+            "id": {
+                "curseforge": "457570"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "configured-forge-1.20.1-2.2.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar",
+                    "id": "5180900",
+                    "parent_id": "457570",
+                    "hashes": {
+                        "sha1": "065c2d287a52f52fc8d33d780192325ee6f4b6ae",
+                        "md5": "9380dc31c599c523a5682a4025fceb92"
+                    },
+                    "required_dependencies": [],
+                    "size": 418929,
+                    "date_published": "2024-03-14T03:01:07.233Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KZvK1rlapJMit1QJ",
             "type": "MOD",
             "slug": {
@@ -3356,6 +3392,43 @@
                     "required_dependencies": [],
                     "size": 195749,
                     "date_published": "2025-07-04T12:24:15.547Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QCCaiiqQs7mUggJd",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "open-loader"
+            },
+            "name": {
+                "curseforge": "Open Loader"
+            },
+            "id": {
+                "curseforge": "354339"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "OpenLoader-Forge-1.20.1-19.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5368/592/OpenLoader-Forge-1.20.1-19.0.4.jar",
+                    "id": "5368592",
+                    "parent_id": "354339",
+                    "hashes": {
+                        "sha1": "13ee67dace2825fc593bf2bc1e44f8b4122a557d",
+                        "md5": "e1115843c44e491f45e0b6890c5776cb"
+                    },
+                    "required_dependencies": [],
+                    "size": 23938,
+                    "date_published": "2024-05-24T11:53:27.667Z"
                 }
             ]
         },
