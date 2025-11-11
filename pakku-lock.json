@@ -4156,6 +4156,42 @@
             ]
         },
         {
+            "pakku_id": "FM4yQEJpRshmCFca",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "portable-blueprints"
+            },
+            "name": {
+                "curseforge": "Portable blueprints"
+            },
+            "id": {
+                "curseforge": "1231499"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "portable_blueprints-v1.9.3-mv1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6994/91/portable_blueprints-v1.9.3-mv1.20.1.jar",
+                    "id": "6994091",
+                    "parent_id": "1231499",
+                    "hashes": {
+                        "sha1": "6257aa6a87d0c4b0633283ab0fac733adc7471c6",
+                        "md5": "2a2ad35bf887c83eebad5b035844020e"
+                    },
+                    "required_dependencies": [],
+                    "size": 440153,
+                    "date_published": "2025-09-13T21:20:42.717Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "JRC7rHExVbKSxfEx",
             "type": "MOD",
             "slug": {
@@ -4272,6 +4308,44 @@
                     ],
                     "size": 14935230,
                     "date_published": "2025-04-16T02:35:10.557Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ofwkL7iAJsZx6nSm",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "quests-additions"
+            },
+            "name": {
+                "curseforge": "Quests Additions (Forge)"
+            },
+            "id": {
+                "curseforge": "580129"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "questsadditions-1.4.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6004/490/questsadditions-1.4.7.jar",
+                    "id": "6004490",
+                    "parent_id": "580129",
+                    "hashes": {
+                        "sha1": "789aeefff75e389bd311cff9ccfe422493dfe694",
+                        "md5": "285f47b10614f6cb3258ec04df16b44b"
+                    },
+                    "required_dependencies": [
+                        "289412"
+                    ],
+                    "size": 112015,
+                    "date_published": "2024-12-19T12:00:59.607Z"
                 }
             ]
         },

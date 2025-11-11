@@ -7,9 +7,10 @@ NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
 // Plort dynamic valuing tooltips
 ItemEvents.tooltip(e => {
     e.addAdvanced(`splendid_slimes:plort`, (item, advanced, text) => {
+        text.remove(1)
         function addPercent(text, mult) {
             if (mult != 0 && mult != undefined) {
-                text.add(3, [
+                text.add(2, [
                     `${mult < 0 ? '§c' : '§a+'}${mult}%`
                 ])
             }
@@ -27,13 +28,13 @@ ItemEvents.tooltip(e => {
             let mult = plortData.multPercent
 
             if (e.shift) {
-                text.add(2, [
+                text.add(1, [
                     `§6${global.calculateCost(cost, 1, item.count)}§a☻`,
                     item.count > 1 ? '§7 Stack Value' : ''
                 ])
                 addPercent(text, mult)
             } else {
-                text.add(2, [
+                text.add(1, [
                     `§6${global.calculateCost(cost, 1, 1)}§a☻`,
                     item.count > 1 ? '§8 [§7Shift§8]' : ''
                 ])
@@ -49,7 +50,6 @@ ItemEvents.tooltip(e => {
 ItemEvents.tooltip(e => {
     for (let coinEntry of Object.entries(global.coinObj)) {
         e.addAdvanced(coinEntry[0], (item, advanced, text) => {
-            text.get(0)
             text.remove(1)
             let val = global.coinObj[item.id]
             if (e.shift) {
