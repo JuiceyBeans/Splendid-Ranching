@@ -42,7 +42,7 @@ ServerEvents.tick(e => {
         let dailySoldTotal = e.server.persistentData['daily_sold_total']
 
         // if within 20 ticks of "6 am"
-        e.server.tell("| Good morning, Rancher!")
+        e.server.tell("| §6Goooood morning, Rancher!")
         if (dailySoldTotal > 0) { // if there was anything sold, tell about it
             e.server.tell(`|| Yesterday you sold:`)
             for (let plortBreed in dailySoldPlorts) {
@@ -50,16 +50,15 @@ ServerEvents.tick(e => {
                 e.server.tell(Text.of(`|| ${count} ${plortBreed} plorts`).color(global.slimeDefinitionsData[plortBreed].color))
             }
             e.server.tell(`|| For a total of §6${dailySoldTotal}§a☻!`)
-
         }
 
         let slimeValueData = e.server.persistentData['slime_value_data']
         // 1-3 random plorts to have double value
         let hotDemands = Object.keys(slimeValueData)
             .sort(() => Math.random() - 0.5)
-            .slice(0, Math.floor(Math.random() * 3) + 1)
+            .slice(0, Math.floor(Math.random() * 4) + 2)
 
-        e.server.tell(`| Todays hot demands are:`)
+        e.server.tell(`| Todays hot §dplort§r demands are:`)
         for (let plortBreed of hotDemands) {
             e.server.tell(Text.of(`|| ${plortBreed}`).color(global.slimeDefinitionsData[plortBreed].color))
         }
