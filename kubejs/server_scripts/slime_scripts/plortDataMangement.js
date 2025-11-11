@@ -53,10 +53,10 @@ ServerEvents.tick(e => {
         }
 
         let slimeValueData = e.server.persistentData['slime_value_data']
-        // 1-3 random plorts to have double value
+        // 1-4 random plorts to have double value
         let hotDemands = Object.keys(slimeValueData)
             .sort(() => Math.random() - 0.5)
-            .slice(0, Math.floor(Math.random() * 4) + 2)
+            .slice(0, Math.floor(Math.random() * 3) + 1)
 
         e.server.tell(`| Todays hot §dplort§r demands are:`)
         for (let plortBreed of hotDemands) {
