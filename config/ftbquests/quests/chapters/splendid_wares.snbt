@@ -22,9 +22,10 @@
 			id: "057410C212A65A06"
 			rewards: [{
 				auto: "disabled"
+				count: 16
 				exclude_from_claim_all: true
 				id: "7B4E1BEDE73B92F1"
-				item: "splendid_slimes:slime_vac"
+				item: "splendid_slimes:corral_block"
 				team_reward: false
 				type: "item"
 			}]
@@ -39,7 +40,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Corral Blocks | &664&a☻"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -97,7 +98,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Plort Press | &664&a☻"
 			x: -6.0d
 			y: -5.5d
 		}
@@ -111,7 +112,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "7F7C0683EAD9FBA4"
-				item: "splendid_slimes:slime_vac"
+				item: "splendid_slimes:plort_rippit"
 				team_reward: false
 				type: "item"
 			}]
@@ -126,7 +127,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Plort Rippit | &664&a☻"
 			x: -5.5d
 			y: -4.5d
 		}
@@ -140,7 +141,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "2CC4A1DD42124F8F"
-				item: "splendid_slimes:slime_vac"
+				item: "splendid_slimes:slime_feeder"
 				team_reward: false
 				type: "item"
 			}]
@@ -155,7 +156,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Slime Feeder | &664&a☻"
 			x: -5.0d
 			y: -3.5d
 		}
@@ -169,7 +170,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "6AC1C99E56E855D9"
-				item: "splendid_slimes:slime_vac"
+				item: "quark:feeding_trough"
 				team_reward: false
 				type: "item"
 			}]
@@ -184,7 +185,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Animal Feeder | &664&a☻"
 			x: -4.0d
 			y: -3.5d
 		}
@@ -198,7 +199,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "0C37BA068FDA898E"
-				item: "splendid_slimes:slime_vac"
+				item: "mbd2:auto_selling_port"
 				team_reward: false
 				type: "item"
 			}]
@@ -213,8 +214,8 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
-			x: -5.5d
+			title: "&f Automatic Plort Sales Terminal | &664&a☻"
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -227,7 +228,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "430F801E08CF38E6"
-				item: "splendid_slimes:slime_vac"
+				item: "mbd2:slime_breeder"
 				team_reward: false
 				type: "item"
 			}]
@@ -242,9 +243,9 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
-			x: -5.0d
-			y: 0.5d
+			title: "&f Slime Fusion Breeder | &664&a☻"
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -271,9 +272,9 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
-			x: -6.0d
-			y: 0.5d
+			title: "&f Plort Sales Terminal | &664&a☻"
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -284,6 +285,7 @@
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
+				icon: "numismatics:bank_terminal"
 				id: "016C4CD0FF4835A9"
 				item: "splendid_slimes:slime_vac"
 				team_reward: false
@@ -300,7 +302,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Bank Terminal | &664&a☻"
 			x: -5.0d
 			y: -1.5d
 		}
@@ -329,9 +331,9 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
-			x: -4.5d
-			y: -0.5d
+			title: "&f Portable Bank Terminal | &664&a☻"
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -359,7 +361,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -4.0d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
@@ -379,7 +381,14 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "3B93002352342181"
-				item: "splendid_slimes:slime_vac"
+				item: {
+					Count: 1
+					id: "mininggadgets:mininggadget_simple"
+					tag: {
+						battery_tier: 0
+						energy: 1000000
+					}
+				}
 				team_reward: false
 				type: "item"
 			}]
@@ -394,7 +403,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Mining Laser MK1 | &664&a☻"
 			x: -9.0d
 			y: -1.5d
 		}
@@ -415,7 +424,14 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "62ADC8D0F3140C53"
-				item: "splendid_slimes:slime_vac"
+				item: {
+					Count: 1
+					id: "mininggadgets:mininggadget_fancy"
+					tag: {
+						battery_tier: 0
+						energy: 1000000
+					}
+				}
 				team_reward: false
 				type: "item"
 			}]
@@ -430,7 +446,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Mining Laser MK2 | &664&a☻"
 			x: -8.5d
 			y: -0.5d
 		}
@@ -451,7 +467,14 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "3AA0EBEB394198D7"
-				item: "splendid_slimes:slime_vac"
+				item: {
+					Count: 1
+					id: "mininggadgets:mininggadget"
+					tag: {
+						battery_tier: 0
+						energy: 1000000
+					}
+				}
 				team_reward: false
 				type: "item"
 			}]
@@ -466,7 +489,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Mining Laser MK3 | &664&a☻"
 			x: -8.0d
 			y: 0.5d
 		}
@@ -480,7 +503,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "37D57E44C5F43E8B"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_size_1"
 				team_reward: false
 				type: "item"
 			}]
@@ -495,7 +518,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Radius T1 | &664&a☻"
 			x: -13.0d
 			y: -1.5d
 		}
@@ -509,7 +532,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "320F15C2E3538FF3"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_size_2"
 				team_reward: false
 				type: "item"
 			}]
@@ -524,7 +547,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Radius T2 | &664&a☻"
 			x: -12.5d
 			y: -0.5d
 		}
@@ -538,7 +561,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "6F4A69E12E5688A7"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_size_3"
 				team_reward: false
 				type: "item"
 			}]
@@ -553,7 +576,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Radius T3 | &664&a☻"
 			x: -12.0d
 			y: 0.5d
 		}
@@ -567,7 +590,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "028DA6D477C6DC9F"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_efficiency_1"
 				team_reward: false
 				type: "item"
 			}]
@@ -582,7 +605,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Efficiency T1 | &664&a☻"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -596,7 +619,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "0FBBD80FA754BDE2"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_efficiency_3"
 				team_reward: false
 				type: "item"
 			}]
@@ -611,7 +634,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Efficiency T3 | &664&a☻"
 			x: -10.5d
 			y: -0.5d
 		}
@@ -625,7 +648,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "4B005909AD3B00DA"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_efficiency_5"
 				team_reward: false
 				type: "item"
 			}]
@@ -640,7 +663,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Efficiency T5 | &664&a☻"
 			x: -10.0d
 			y: 0.5d
 		}
@@ -654,7 +677,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "3C582DAF3736EBEC"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_range_1"
 				team_reward: false
 				type: "item"
 			}]
@@ -669,7 +692,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Range T1 | &664&a☻"
 			x: -12.0d
 			y: -1.5d
 		}
@@ -683,7 +706,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "2B9156E3DAB018E4"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_range_2"
 				team_reward: false
 				type: "item"
 			}]
@@ -698,7 +721,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Range T2 | &664&a☻"
 			x: -11.5d
 			y: -0.5d
 		}
@@ -712,7 +735,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "17752A14A97A2B03"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_range_3"
 				team_reward: false
 				type: "item"
 			}]
@@ -727,7 +750,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Range T3 | &664&a☻"
 			x: -11.0d
 			y: 0.5d
 		}
@@ -741,7 +764,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "494A4C0FC9686DE2"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_battery_1"
 				team_reward: false
 				type: "item"
 			}]
@@ -756,7 +779,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Battery T1 | &664&a☻"
 			x: -14.0d
 			y: -1.5d
 		}
@@ -770,7 +793,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "10760E708D77B7A7"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_battery_2"
 				team_reward: false
 				type: "item"
 			}]
@@ -785,7 +808,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Battery T2 | &664&a☻"
 			x: -13.5d
 			y: -0.5d
 		}
@@ -799,7 +822,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "078AA7994446F004"
-				item: "splendid_slimes:slime_vac"
+				item: "mininggadgets:upgrade_battery_3"
 				team_reward: false
 				type: "item"
 			}]
@@ -814,7 +837,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Battery T3 | &664&a☻"
 			x: -13.0d
 			y: 0.5d
 		}
@@ -829,7 +852,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "75ED401BEFB4A92C"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:backpack"
 				team_reward: false
 				type: "item"
 			}]
@@ -844,7 +867,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Backpack | &664&a☻"
 			x: -9.0d
 			y: -3.5d
 		}
@@ -859,7 +882,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "4841D9E9AA6421CB"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:deposit_upgrade"
 				team_reward: false
 				type: "item"
 			}]
@@ -874,7 +897,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Deposit Upgrade | &664&a☻"
 			x: -11.0d
 			y: -3.5d
 		}
@@ -889,7 +912,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "52FBFB2438959D16"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:restock_upgrade"
 				team_reward: false
 				type: "item"
 			}]
@@ -904,7 +927,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Restock Upgrade | &664&a☻"
 			x: -10.0d
 			y: -3.5d
 		}
@@ -919,7 +942,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "14765539F7E4F137"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:feeding_upgrade"
 				team_reward: false
 				type: "item"
 			}]
@@ -934,7 +957,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Feeding Upgrade | &664&a☻"
 			x: -10.5d
 			y: -4.5d
 		}
@@ -949,7 +972,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "0BFF338686664B6E"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:filter_upgrade"
 				team_reward: false
 				type: "item"
 			}]
@@ -964,7 +987,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Filter Upgrade | &664&a☻"
 			x: -8.5d
 			y: -4.5d
 		}
@@ -979,7 +1002,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "402B3ABC24CFD235"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:pickup_upgrade"
 				team_reward: false
 				type: "item"
 			}]
@@ -994,7 +1017,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Pickup Upgrade | &664&a☻"
 			x: -8.0d
 			y: -5.5d
 		}
@@ -1009,7 +1032,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "54342FB0EDE656B3"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:void_upgrade"
 				team_reward: false
 				type: "item"
 			}]
@@ -1024,7 +1047,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Void Upgrade | &664&a☻"
 			x: -9.5d
 			y: -4.5d
 		}
@@ -1039,7 +1062,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "195CCC8D8AA12AE1"
-				item: "splendid_slimes:slime_vac"
+				item: "sophisticatedbackpacks:battery_upgrade"
 				team_reward: false
 				type: "item"
 			}]
@@ -1054,7 +1077,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Battery Upgrade | &664&a☻"
 			x: -9.0d
 			y: -5.5d
 		}
@@ -1071,6 +1094,13 @@
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900
+					}
+				}
 				id: "55460D994D3FD1BF"
 				item: "splendid_slimes:slime_vac"
 				team_reward: false
@@ -1087,7 +1117,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Pressurized Jetpack | &664&a☻"
 			x: -2.5d
 			y: -3.5d
 		}
@@ -1105,7 +1135,11 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "7531BDA365D8C991"
-				item: "splendid_slimes:slime_vac"
+				item: {
+					Count: 1
+					id: "chargers:charger_t2"
+					tag: { }
+				}
 				team_reward: false
 				type: "item"
 			}]
@@ -1120,9 +1154,38 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Charging Station | &664&a☻"
 			x: -9.5d
 			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mbd2:slime_breeder"
+			id: "39795D623C71B84A"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "24A0EB6251DD84D7"
+				item: "mbd2:splendid_generator"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6C24722422CDBB6B"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Splendid Generator | &664&a☻"
+			x: -5.0d
+			y: 0.5d
 		}
 	]
 	title: "&a Splendid Wares"

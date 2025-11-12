@@ -426,21 +426,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["540EA146149A0210"]
-			hide_until_deps_complete: true
-			icon: "quark:orange_blossom_sapling"
-			id: "557F85759F41C173"
-			shape: "hexagon"
-			tasks: [{
-				id: "2062E8288CD8E7D7"
-				title: "So that's where they are"
-				type: "checkmark"
-			}]
-			title: "&dSlime &aHabitats"
-			x: 4.0d
-			y: -0.5d
-		}
-		{
 			dependencies: ["3A30D0E70BEA4946"]
 			id: "01150FF03DEBB716"
 			shape: "hexagon"
@@ -481,10 +466,7 @@
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
-			description: [
-				"{@pagebreak}"
-				"(new page placeholder text)"
-			]
+			description: [""]
 			icon: "numismatics:creative_vendor"
 			id: "2FDFFE3208FF3C16"
 			shape: "hexagon"
@@ -678,7 +660,7 @@
 			}]
 			title: "&dSlime&rkeeping"
 			x: 4.0d
-			y: 0.5d
+			y: 0.0d
 		}
 	]
 	title: "&d Ranching"
