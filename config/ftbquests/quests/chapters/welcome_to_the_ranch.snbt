@@ -62,6 +62,10 @@
 		{
 			dependencies: ["6B93B28705E58C2F"]
 			description: [
+				"From the previous quest in your &e&lHologuide&r™ &9&lwe&r have given you a &eBase Camp Digiprint&r! using this, you can form a small camp template with some essential tools to assist you."
+				""
+				"Be absolutely sure about where you place the &eDigiprint&r as the machinery it holds cannot be moved without costly repairs!"
+				""
 				"Your &abase of operations&r &etemplate&r features:"
 				""
 				"- A &eBank Terminal&r allowing you to store &cGlubcoins&r, used in exchanging with the &9&lSSCCOGAC&r's for goods to assist your research. Along with a &eBank Card&r for linking accounts. {Identification stripe can be used to link multiple players to one bank account in group play}"
@@ -70,7 +74,7 @@
 				""
 				"- A &eSplendid Generator&r to provide energy to your &echarging pad&r"
 				""
-				"The &eSplendid Generator&r is metered and will drain &ccurrency&r from the account of the supplied &eBank Card&r, at &61&a☻&r (1 &bgip&r) per 1000 Forge Energy"
+				"The &eSplendid Generator&r is metered and will drain &ccurrency&r from the account of the supplied &eBank Card&r, at &61&a☻&r (1 &bgip&r) per 10000 Forge Energy"
 				""
 				"For starter items: &8[&a➡&8]&r"
 				"{@pagebreak}"
@@ -91,6 +95,7 @@
 			}
 			icon_scale: 1.5d
 			id: "620C59392C757578"
+			min_width: 350
 			rewards: [
 				{
 					id: "746CA4FDFF281235"
@@ -181,6 +186,7 @@
 						id: "portable_blueprints:worn_blueprint"
 						tag: {
 							Damage: 1
+							allow_nbt: 1
 							altezza: 0
 							blueprint_name: "base_camp"
 							buildAnyway: 0b
@@ -355,7 +361,13 @@
 		}
 		{
 			dependencies: ["540EA146149A0210"]
-			icon: "minecraft:carrot"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/carrot"
+				}
+			}
 			id: "24EC9B4811458C2E"
 			shape: "rsquare"
 			tasks: [{
@@ -378,23 +390,24 @@
 				}
 			}
 			id: "1E8294B92E62B946"
+			rewards: [{
+				id: "480D7E663F6FD9B3"
+				item: "mbd2:selling_port"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "5C842B2EA6173B92"
-					item: {
-						Count: 1
-						id: "splendid_slimes:plort"
-						tag: { }
-					}
-					match_nbt: false
-					type: "item"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "5C842B2EA6173B92"
+				item: {
+					Count: 1
+					id: "splendid_slimes:plort"
+					tag: { }
 				}
-				{
-					id: "398D4DFFBE6365AE"
-					type: "checkmark"
-				}
-			]
+				match_nbt: false
+				type: "item"
+			}]
 			title: "&fCultivating &dPlorts"
 			x: 0.0d
 			y: 2.0d
@@ -533,7 +546,7 @@
 				id: "splendid_slimes:slime_item"
 				tag: {
 					slime: {
-						id: "splendid_slimes:slimy"
+						id: "splendid_slimes:gem"
 					}
 				}
 			}
@@ -637,11 +650,9 @@
 			dependencies: ["3A30D0E70BEA4946"]
 			icon: {
 				Count: 1
-				id: "splendid_slimes:plort"
+				id: "ftbquests:custom_icon"
 				tag: {
-					plort: {
-						id: "splendid_slimes:gold"
-					}
+					Icon: "numismatics_utils:item/bank_meter"
 				}
 			}
 			id: "40C6C595C39C2067"

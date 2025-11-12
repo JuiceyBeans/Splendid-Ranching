@@ -339,6 +339,42 @@
 			x: 8.5d
 			y: -3.0d
 		}
+		{
+			id: "0CF7926281B36705"
+			linked_quest: "07757DB4340EED61"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			id: "381725EEEC429115"
+			linked_quest: "1668DEA628B4ACE6"
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			id: "671532A2E3BEA031"
+			linked_quest: "60CF75FB21126339"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "7597B7187150107F"
+			linked_quest: "6956157739C7167A"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "49CA27C2F0A888BB"
+			linked_quest: "1A4A20D26B5000F8"
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			id: "15E3A1D47F41942B"
+			linked_quest: "5BC608A0F1C8E2D3"
+			x: 12.0d
+			y: -3.0d
+		}
 	]
 	quests: [
 		{
@@ -2044,6 +2080,185 @@
 			}]
 			x: 8.5d
 			y: -6.0d
+		}
+		{
+			id: "0399F1AD69D6A47E"
+			tasks: [{
+				id: "519425B5FB5F69D8"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "6956157739C7167A"
+			tasks: [{
+				icon: "minecraft:sheep_spawn_egg"
+				id: "6144C8ADA7BB5AEF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "1A4A20D26B5000F8"
+			tasks: [{
+				icon: "minecraft:pig_spawn_egg"
+				id: "6429F4F340933F36"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "07757DB4340EED61"
+			tasks: [{
+				icon: "minecraft:cow_spawn_egg"
+				id: "5B7B18FCEE9E0F02"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "1668DEA628B4ACE6"
+			tasks: [{
+				icon: "minecraft:chicken_spawn_egg"
+				id: "774A338E1227B33B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "60CF75FB21126339"
+			tasks: [{
+				icon: "minecraft:rabbit_spawn_egg"
+				id: "4DDED3CF50A057D2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:rabbit"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "20D84DD1D8983415"
+			tasks: [
+				{
+					icon: "minecraft:cod_spawn_egg"
+					id: "467EE5307D8C7F38"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:cod"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:pufferfish_spawn_egg"
+					id: "5E96E5E13A107923"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:pufferfish"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:tropical_fish_spawn_egg"
+					id: "532E470C51DC2770"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:tropical_fish"
+					type: "observation"
+				}
+			]
+			title: "Sea Fish"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "07F637FE85B25EFB"
+			tasks: [{
+				icon: "alexscaves:spawn_egg_sweetish_fish"
+				id: "7326C77C9377B4CA"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexscaves:sweetish_fish"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "077A32F3C160C74F"
+			tasks: [{
+				icon: "alexscaves:spawn_egg_radgill"
+				id: "38166015D4BA708C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexscaves:radgill"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "1CA9700AB05D96E3"
+			tasks: [{
+				icon: "alexscaves:spawn_egg_trilocaris"
+				id: "3057A72BB47E2C34"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexscaves:trilocaris"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			id: "5BC608A0F1C8E2D3"
+			tasks: [
+				{
+					icon: "minecraft:cod_spawn_egg"
+					id: "53045B1955C38001"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:cod"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:salmon_spawn_egg"
+					id: "303B1269F6D5C070"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:salmon"
+					type: "observation"
+				}
+			]
+			title: "Common Fish"
+			x: 12.0d
+			y: -5.0d
 		}
 	]
 	title: "&c Gelapedia"

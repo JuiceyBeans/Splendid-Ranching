@@ -406,6 +406,13 @@
 		{
 			dependencies: ["109898E1B0AB47CF"]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:item/globe"
+				}
+			}
 			id: "08FCC0302B9F5469"
 			tasks: [{
 				id: "52DBC03E769A7CA3"
@@ -418,6 +425,13 @@
 		{
 			dependencies: ["109898E1B0AB47CF"]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:item/diamond_heart"
+				}
+			}
 			id: "0737B276FE4AA022"
 			tasks: [{
 				id: "224040595BD17B54"
@@ -430,6 +444,13 @@
 		{
 			dependencies: ["109898E1B0AB47CF"]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "morered:item/red_alloy_ingot"
+				}
+			}
 			id: "0923CA86BC3F72F5"
 			tasks: [{
 				id: "7ADA58F7EB5FF55E"
@@ -442,6 +463,13 @@
 		{
 			dependencies: ["109898E1B0AB47CF"]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "essentials:item/candle_lilypad"
+				}
+			}
 			id: "32DE8BA397A5E12D"
 			tasks: [{
 				id: "0DEA125EFAD2F423"
@@ -579,6 +607,13 @@
 		{
 			dependencies: ["109898E1B0AB47CF"]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "computercraft:item/pocket_computer_blink"
+				}
+			}
 			id: "75426B66A09DD940"
 			tasks: [{
 				id: "4C63816E423283FB"
