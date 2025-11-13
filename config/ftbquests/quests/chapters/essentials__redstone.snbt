@@ -563,15 +563,15 @@
 		{
 			dependencies: ["109898E1B0AB47CF"]
 			hide_until_deps_complete: true
-			icon: "computercraft:computer_advanced"
+			icon: "computercraft:computer_normal"
 			id: "75426B66A09DD940"
 			tasks: [{
 				id: "4C63816E423283FB"
 				title: "Computer Craft"
 				type: "checkmark"
 			}]
-			x: -10.0d
-			y: -2.0d
+			x: -10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0737B276FE4AA022"]
@@ -604,8 +604,8 @@
 				type: "checkmark"
 			}]
 			title: "Advanced Peripherals"
-			x: -9.5d
-			y: -1.0d
+			x: -10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["75426B66A09DD940"]
@@ -616,19 +616,7 @@
 				type: "checkmark"
 			}]
 			title: "Ducky Peripherals"
-			x: -10.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["75426B66A09DD940"]
-			icon: "toms_peripherals:gpu"
-			id: "05826A5A0AFB4B4B"
-			tasks: [{
-				id: "2A4E2A2437360CD0"
-				type: "checkmark"
-			}]
-			title: "Tom's Peripherals"
-			x: -10.5d
+			x: -11.5d
 			y: 0.0d
 		}
 		{

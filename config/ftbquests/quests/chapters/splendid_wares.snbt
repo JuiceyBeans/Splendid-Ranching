@@ -273,8 +273,8 @@
 				type: "item"
 			}]
 			title: "&f Plort Sales Terminal | &664&a☻"
-			x: -5.5d
-			y: -0.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -332,8 +332,8 @@
 				type: "item"
 			}]
 			title: "&f Portable Bank Terminal | &664&a☻"
-			x: -4.0d
-			y: -1.5d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -361,8 +361,8 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -3.0d
-			y: -1.5d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -898,8 +898,8 @@
 				type: "item"
 			}]
 			title: "&f Deposit Upgrade | &664&a☻"
-			x: -11.0d
-			y: -3.5d
+			x: -10.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -958,8 +958,8 @@
 				type: "item"
 			}]
 			title: "&f Feeding Upgrade | &664&a☻"
-			x: -10.5d
-			y: -4.5d
+			x: -10.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -1118,45 +1118,8 @@
 				type: "item"
 			}]
 			title: "&f Pressurized Jetpack | &664&a☻"
-			x: -2.0d
+			x: -11.5d
 			y: -3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["52D66243AA5C9C74"]
-			disable_toast: true
-			icon: {
-				Count: 1
-				id: "chargers:charger_t2"
-				tag: { }
-			}
-			id: "0D5696616BCF482A"
-			rewards: [{
-				auto: "disabled"
-				exclude_from_claim_all: true
-				id: "7531BDA365D8C991"
-				item: {
-					Count: 1
-					id: "chargers:charger_t2"
-					tag: { }
-				}
-				team_reward: false
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "128914F782AFC7C1"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
-				type: "item"
-			}]
-			title: "&f Charging Station | &664&a☻"
-			x: -9.5d
-			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -1184,8 +1147,298 @@
 				type: "item"
 			}]
 			title: "&f Splendid Generator | &664&a☻"
-			x: -6.0d
-			y: 0.5d
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:modificationtable"
+			id: "7AE66B0B12744FD0"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "7D9E6947871B847F"
+				item: "mininggadgets:modificationtable"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1C52B918FF2B279D"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Modification Table | &664&a☻"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:tesla_coil"
+			id: "1B28B2335722E449"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "40369395455346F4"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "294B270867D99690"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:connector"
+			id: "7A839D55AEBC6FF5"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "0CE314819AA57C75"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6AE238ED2FC10968"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:festive_spool"
+			id: "6B6EF9305014EFE9"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "5FE475932CD3736D"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "099A1BE7E5155460"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:modular_accumulator"
+			id: "105D0D8DB4B020C4"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "211729B209C9F6CF"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3A52475420A6C3BC"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:copper_spool"
+			id: "27EF30A9FF72E576"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "2EED5AA0C817B0BB"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "786220A01A263C19"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:small_light_connector"
+			id: "5971E4859C0C85E5"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "4FE4F2C558138B1F"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "525714B929648E9C"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:spool"
+			id: "51A2723D8C232144"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "074C1E99F23B3D1A"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "03878FF95FE778FE"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:redstone_relay"
+			id: "33D9D2699E3814C1"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "5A8B59A827D6B0A5"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "62ED982C0C918765"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "createaddition:digital_adapter"
+			id: "1BD75E8A6C90CB37"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "361DF6C63B589A9E"
+				item: "quark:feeding_trough"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5B3940D25D600900"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Animal Feeder | &664&a☻"
+			x: -1.5d
+			y: -5.5d
 		}
 	]
 	title: "&a Splendid Wares"
