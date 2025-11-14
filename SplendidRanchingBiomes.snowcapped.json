@@ -2,11 +2,12 @@
   "dimensionName": "minecraft:overworld",
   "continentalnesses": [
     -1,
+    -0.455,
     1
   ],
   "erosions": [
     -1,
-    1,
+    0,
     1
   ],
   "weirdnesses": [
@@ -17,16 +18,18 @@
   ],
   "temperatures": [
     -1,
-    -0.5,
-    0.11,
-    0.5,
+    -0.6,
+    -0.2,
+    0.2,
+    0.595,
     1
   ],
   "humidities": [
     -1,
-    -0.5,
-    0,
-    0.5700000000000001,
+    -0.6,
+    -0.2,
+    0.2,
+    0.6,
     1
   ],
   "depths": [
@@ -44,9 +47,9 @@
         "layout_mhjpqhrc"
       ],
       [
-        "unassigned",
-        "unassigned",
-        "unassigned"
+        "layout_mhky36bv",
+        "layout_mhjpga70",
+        "layout_mhjpga70"
       ]
     ]
   },
@@ -68,31 +71,83 @@
   "layouts": [
     {
       "key": "layout_mhjpga70",
-      "name": "New Layout",
+      "name": "Surface",
       "array": [
         [
-          "biome_mhjpc3kw",
-          "biome_mhjpc3kw",
-          "biome_mhjpc3kw",
-          "biome_mhjpbtiw"
-        ],
-        [
           "biome_mhjpcr5e",
-          "biome_mhjpcd77",
+          "biome_mhjpcr5e",
+          "biome_mhjpbtiw",
           "biome_mhjpbtiw",
           "biome_mhjpbtiw"
         ],
         [
           "biome_mhjpcr5e",
-          "biome_mhjpcd77",
-          "biome_mhjpcyzk",
-          "biome_mhjpcyzk"
+          "biome_mhjpcr5e",
+          "biome_mhjpcr5e/biome_mhjpbtiw",
+          "biome_mhjpbtiw",
+          "biome_mhjpbtiw"
         ],
         [
-          "biome_mhjpcr5e",
-          "biome_mhjpcr5e",
+          "biome_mhjpcyzk",
+          "biome_mhjpcyzk",
+          "biome_mhjpcd77",
           "biome_mhjpdb3y",
           "biome_mhjpdb3y"
+        ],
+        [
+          "biome_mhjpcyzk",
+          "biome_mhjpcyzk",
+          "biome_mhjpcd77/biome_mhjpdb3y",
+          "biome_mhjpdb3y",
+          "biome_mhjpdb3y"
+        ],
+        [
+          "biome_mhjpcyzk",
+          "biome_mhjpcyzk",
+          "biome_mhjpcyzk",
+          "biome_mhjpdb3y",
+          "biome_mhjpdb3y"
+        ]
+      ]
+    },
+    {
+      "key": "layout_mhpu7k99",
+      "name": "Caves",
+      "array": [
+        [
+          "biome_mhpufaql",
+          "biome_mhpufaql",
+          "biome_mhpuepj0",
+          "biome_mhpuepj0",
+          "biome_mhpuepj0"
+        ],
+        [
+          "biome_mhpufaql",
+          "biome_mhpufaql",
+          "biome_mhpufaql/biome_mhpuepj0",
+          "biome_mhpuepj0",
+          "biome_mhpuepj0"
+        ],
+        [
+          "biome_mhpug8bq",
+          "biome_mhpug8bq",
+          "biome_mhpuezwo",
+          "biome_mhpufr11",
+          "biome_mhpufr11"
+        ],
+        [
+          "biome_mhpug8bq",
+          "biome_mhpug8bq",
+          "biome_mhpuezwo/biome_mhpufr11",
+          "biome_mhpufr11",
+          "biome_mhpufr11"
+        ],
+        [
+          "biome_mhpug8bq",
+          "biome_mhpug8bq",
+          "biome_mhpug8bq",
+          "biome_mhpufr11",
+          "biome_mhpufr11"
         ]
       ]
     }
@@ -100,8 +155,12 @@
   "slices": [
     {
       "key": "layout_mhjpqhrc",
-      "name": "Surface1",
+      "name": "Surface",
       "array": [
+        [
+          "biome_mhky64ju",
+          "biome_mhky64ju"
+        ],
         [
           "layout_mhjpga70",
           "layout_mhjpga70"
@@ -109,22 +168,16 @@
       ]
     },
     {
-      "key": "layout_mhky30js",
-      "name": "Surface2",
-      "array": [
-        [
-          "unassigned",
-          "unassigned"
-        ]
-      ]
-    },
-    {
       "key": "layout_mhky36bv",
-      "name": "Surface3",
+      "name": "Caves",
       "array": [
         [
-          "unassigned",
-          "unassigned"
+          "biome_mhpue4wl",
+          "biome_mhpue4wl"
+        ],
+        [
+          "layout_mhpu7k99",
+          "layout_mhpu7k99"
         ]
       ]
     }
@@ -134,11 +187,6 @@
       "key": "biome_mhjpbtiw",
       "name": "splendid_ranching:opal_desert",
       "color": "#00fbff"
-    },
-    {
-      "key": "biome_mhjpc3kw",
-      "name": "splendid_ranching:ancient_ruins",
-      "color": "#ff8800"
     },
     {
       "key": "biome_mhjpcd77",
@@ -164,6 +212,36 @@
       "key": "biome_mhky64ju",
       "name": "splendid_ranching:slimey_sea",
       "color": "#00ada2"
+    },
+    {
+      "key": "biome_mhpue4wl",
+      "name": "alexscaves:abyssal_chasm",
+      "color": "#0040ff"
+    },
+    {
+      "key": "biome_mhpuepj0",
+      "name": "alexscaves:candy_cavity",
+      "color": "#eb00ac"
+    },
+    {
+      "key": "biome_mhpuezwo",
+      "name": "alexscaves:forlorn_hollows",
+      "color": "#704700"
+    },
+    {
+      "key": "biome_mhpufaql",
+      "name": "alexscaves:magnetic_caves",
+      "color": "#ff0000"
+    },
+    {
+      "key": "biome_mhpufr11",
+      "name": "alexscaves:primordial_caves",
+      "color": "#b7a806"
+    },
+    {
+      "key": "biome_mhpug8bq",
+      "name": "alexscaves:toxic_caves",
+      "color": "#00ff11"
     }
   ],
   "targetVersion": "1_19",

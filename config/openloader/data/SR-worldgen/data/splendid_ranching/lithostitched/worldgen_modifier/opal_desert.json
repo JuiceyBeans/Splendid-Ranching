@@ -10,7 +10,7 @@
     "then_run": {
       "type": "minecraft:sequence",
       "sequence": [
-        {
+                {
           "type": "minecraft:condition",
           "if_true": {
             "type": "minecraft:noise_threshold",
@@ -92,22 +92,22 @@
           "type": "minecraft:condition",
           "if_true": {
             "type": "minecraft:stone_depth",
+            "offset": 3,
+            "surface_type": "floor",
             "add_surface_depth": false,
-            "offset": 0,
-            "secondary_depth_range": 0,
-            "surface_type": "ceiling"
+            "secondary_depth_range": 0
           },
           "then_run": {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "minecraft:sandstone"
+              "Name": "minecraft:sand"
             }
           }
         },
         {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:sand"
+            "Name": "minecraft:sandstone"
           }
         }
       ]
