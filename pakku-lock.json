@@ -1506,7 +1506,7 @@
             ]
         },
         {
-            "pakku_id": "Mr7XbjHneV8AIoO9",
+            "pakku_id": "iyTLZGL7OHL79Dk6",
             "type": "RESOURCE_PACK",
             "slug": {
                 "curseforge": "create-computercraft"
@@ -1520,20 +1520,21 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Create Computers 1.2.1 - 1.19.2.zip",
+                    "file_name": "Create Computers 1.2.1 - 1.20.1.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5230/447/Create Computers 1.2.1 - 1.19.2.zip",
-                    "id": "5230447",
+                    "url": "https://edge.forgecdn.net/files/5221/598/Create Computers 1.2.1 - 1.20.1.zip",
+                    "id": "5221598",
                     "parent_id": "881633",
                     "hashes": {
-                        "sha1": "2f7e22eb0ca0a3ab7382c290b49995df66bba97e",
-                        "md5": "29378700b9666402b7a383490f6cef11"
+                        "sha1": "9c17b7deb5d49a20a3ac89ecdd33b79a35ba6e50",
+                        "md5": "246d0a1d5982d84549753e84446ce1cb"
                     },
-                    "required_dependencies": [
-                        "282001"
-                    ],
-                    "size": 286814,
-                    "date_published": "2024-04-02T17:59:19.330Z"
+                    "required_dependencies": [],
+                    "size": 286516,
+                    "date_published": "2024-03-30T02:23:18.440Z"
                 }
             ]
         },
