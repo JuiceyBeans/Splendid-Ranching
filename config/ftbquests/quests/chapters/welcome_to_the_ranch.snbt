@@ -426,7 +426,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3A30D0E70BEA4946"]
+			dependencies: ["75A4584FAAEC2937"]
 			id: "01150FF03DEBB716"
 			shape: "hexagon"
 			tasks: [{
@@ -435,8 +435,8 @@
 				type: "item"
 			}]
 			title: "Resource Harvesting"
-			x: -6.0d
-			y: 2.0d
+			x: -6.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -452,7 +452,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["605E7F63ACF29D56"]
+			dependencies: ["75A4584FAAEC2937"]
 			id: "56F49C5A7B13623E"
 			shape: "hexagon"
 			tasks: [{
@@ -461,12 +461,13 @@
 				type: "item"
 			}]
 			title: "Growing slime hearts"
-			x: -6.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
 			description: [""]
+			hide_dependent_lines: true
 			icon: "numismatics:creative_vendor"
 			id: "2FDFFE3208FF3C16"
 			shape: "hexagon"
@@ -589,7 +590,7 @@
 				type: "checkmark"
 			}]
 			title: "Elven Magics"
-			x: -4.875d
+			x: -5.0d
 			y: 4.75d
 		}
 		{
@@ -604,7 +605,7 @@
 				type: "checkmark"
 			}]
 			title: "Mechanical Machinations"
-			x: -4.875d
+			x: -5.0d
 			y: 3.25d
 		}
 		{
@@ -624,7 +625,7 @@
 				type: "checkmark"
 			}]
 			title: "Redstone Engineering"
-			x: -5.625d
+			x: -5.75d
 			y: 4.0d
 		}
 		{
@@ -661,6 +662,22 @@
 			x: 4.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["611599F122718E16"]
+			hide_dependent_lines: true
+			icon: "botania:light_relay"
+			id: "528ED809C83D224D"
+			shape: "hexagon"
+			subtitle: "Eureka!"
+			tasks: [{
+				id: "70D917DACD6BBCE0"
+				title: "Knowledge is power!"
+				type: "checkmark"
+			}]
+			title: "&b The Lab"
+			x: -4.0d
+			y: 6.0d
+		}
 	]
-	title: "&d Ranching"
+	title: "&d Ranching &r✔"
 }

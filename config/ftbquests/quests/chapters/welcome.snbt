@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "welcome"
+	group: ""
+	icon: "ftbquests:book"
+	id: "190A191644CF15F9"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Discord Link"]
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Curseforge Page"]
+			image: "supplementaries:textures/gui/book/icon/curseforge.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Just Enough Opinions"]
+			image: "kubejs:textures/gui/icons/jeo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			disable_toast: true
+			id: "337CE0700D88BE3D"
+			shape: "rsquare"
+			title: "Credits"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "splendid_slimes:slime_item"
+				tag: {
+					slime: {
+						id: "splendid_slimes:slimy"
+					}
+				}
+			}
+			id: "24E863D73CB9070F"
+			shape: "gear"
+			subtitle: "Splendid Ranching!"
+			title: "Version 0.1.0"
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: " Pack Info"
+}

@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_lab"
+	group: "52A2EE513D7930F2"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "botania:light_relay"
+	id: "112484FF0BE3AF63"
+	images: [{
+		dependency: "2FDFFE3208FF3C16"
+		dev: true
+		height: 1.0d
+		hover: [
+			"deear future deveroper/deepa"
+			"please make this quest page "
+			"datagenerated in kubejs"
+			"or some other scripting"
+			"because kube can only do json"
+			"without copy pasting"
+			"thanks -deepa"
+		]
+		image: "ftbteams:textures/accept.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 1.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"528ED809C83D224D"
+				"65497CA0A68B8F30"
+			]
+			id: "011F6A2FAF01FECF"
+			rewards: [{
+				auto: "invisible"
+				id: "5120BBFB4CEEBAEA"
+				ignore_reward_blocking: true
+				stage: "create_basic"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					disable_toast: true
+					id: "7BF5E6B2C8DC09E7"
+					item: {
+						Count: 8
+						id: "splendid_slimes:plort"
+						tag: {
+							plort: {
+								id: "splendid_slimes:stony"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					disable_toast: true
+					id: "4AC0CB4632E8F6FC"
+					item: "numismatics:cog"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["528ED809C83D224D"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "botania:fork_light_relay"
+			id: "65497CA0A68B8F30"
+			tasks: [{
+				id: "57402CD04BFE6007"
+				type: "checkmark"
+			}]
+			title: "waw"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "&b The Lab &r✔"
+}

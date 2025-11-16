@@ -6,9 +6,9 @@
 	hide_quest_until_deps_complete: true
 	icon: "numismatics:creative_vendor"
 	id: "495E11D8FC876BE5"
-	order_index: 2
+	order_index: 3
 	quest_links: [{
-		id: "647195877CFB822A"
+		id: "233F34C6F3CFDDF1"
 		linked_quest: "2FDFFE3208FF3C16"
 		x: -7.0d
 		y: -2.5d
@@ -215,8 +215,8 @@
 				type: "item"
 			}]
 			title: "&f Automatic Plort Sales Terminal | &664&a☻"
-			x: -4.5d
-			y: -0.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -244,8 +244,8 @@
 				type: "item"
 			}]
 			title: "&f Slime Fusion Breeder | &664&a☻"
-			x: -5.0d
-			y: 0.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -257,7 +257,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "5C34742F8F29072C"
-				item: "splendid_slimes:slime_vac"
+				item: "mbd2:selling_port"
 				team_reward: false
 				type: "item"
 			}]
@@ -273,7 +273,7 @@
 				type: "item"
 			}]
 			title: "&f Plort Sales Terminal | &664&a☻"
-			x: -4.0d
+			x: -5.0d
 			y: 0.5d
 		}
 		{

@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "slime_collection"
 	group: "52A2EE513D7930F2"
-	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "alexscaves:cave_book"
 	id: "52920F4617FAEE25"
@@ -829,6 +828,8 @@
 				""
 				"Fusion slimes have rankings depending on which slimes are used to fuse it, the ranking is determined by the highest ranking slime required in fusion, plus one."
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			hide_details_until_startable: false
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -2083,15 +2084,6 @@
 			y: -6.0d
 		}
 		{
-			id: "0399F1AD69D6A47E"
-			tasks: [{
-				id: "519425B5FB5F69D8"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["42831C5E7A8C2BA0"]
 			id: "6956157739C7167A"
 			tasks: [{
@@ -2262,5 +2254,5 @@
 			y: -5.0d
 		}
 	]
-	title: "&c Gelapedia"
+	title: "&c Gelapedia &r✔"
 }
