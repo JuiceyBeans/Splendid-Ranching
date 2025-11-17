@@ -7,25 +7,45 @@
 	hide_quest_until_deps_visible: true
 	icon: "botania:light_relay"
 	id: "112484FF0BE3AF63"
-	images: [{
-		dependency: "2FDFFE3208FF3C16"
-		dev: true
-		height: 1.0d
-		hover: [
-			"deear future deveroper/deepa"
-			"please make this quest page "
-			"datagenerated in kubejs"
-			"or some other scripting"
-			"because kube can only do json"
-			"without copy pasting"
-			"thanks -deepa"
-		]
-		image: "ftbteams:textures/accept.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: 1.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			dependency: "2FDFFE3208FF3C16"
+			dev: true
+			height: 1.5d
+			hover: [
+				"deear future deveroper/deepa"
+				"please make this quest page "
+				"datagenerated in kubejs"
+				"or some other scripting"
+				"because kube can only do json"
+				"without copy pasting"
+				"thanks -deepa"
+			]
+			image: "ftbteams:textures/accept.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependency: "528ED809C83D224D"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependency: "528ED809C83D224D"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.5d
+		}
+	]
 	order_index: 2
 	progression_mode: "linear"
 	quest_links: [ ]
@@ -78,7 +98,7 @@
 			]
 			title: "Basic Mechanical Components"
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
@@ -100,6 +120,237 @@
 			title: "Researching"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			id: "5E4E997BFF929DD2"
+			secret: true
+			tasks: [{
+				id: "1E83A33AB2C70A00"
+				type: "checkmark"
+			}]
+			title: "Water rotation"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "04299EDF0DC22520"
+			secret: true
+			tasks: [{
+				id: "436F9F8117D6BD0E"
+				type: "checkmark"
+			}]
+			title: "Wind rotation"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "3EEAB0709D27E675"
+			secret: true
+			tasks: [{
+				id: "730B51881F2AAA95"
+				type: "checkmark"
+			}]
+			title: "Placing \\& breaking"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "6CFDFFB439A094E5"
+			secret: true
+			tasks: [{
+				id: "38414F31BEDD7FFB"
+				type: "checkmark"
+			}]
+			title: "trains"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "4B4CA2A3141B3B40"
+			secret: true
+			tasks: [{
+				id: "77F83D6B3CA440F1"
+				type: "checkmark"
+			}]
+			title: "boiler"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "7D9D22E92C72755F"
+			secret: true
+			tasks: [{
+				id: "496344FF691C0A4D"
+				type: "checkmark"
+			}]
+			title: "electricity management"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "09EE78FE02787F37"
+			secret: true
+			tasks: [{
+				id: "7F190BDAAB0AAAA0"
+				type: "checkmark"
+			}]
+			title: "botania floral fert, petal apothecary, pure daisy"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "46A70F2A591B4C2E"
+			secret: true
+			tasks: [{
+				id: "35B7B6ADE1B7555F"
+				type: "checkmark"
+			}]
+			title: "mixing \\& pressing"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "13F1E10EB22EE3AD"
+			secret: true
+			tasks: [{
+				id: "21F87E7136384F02"
+				type: "checkmark"
+			}]
+			title: "harvesting \\& sawing"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "4BE5328771541203"
+			secret: true
+			tasks: [{
+				id: "01D217247B028777"
+				type: "checkmark"
+			}]
+			title: "cart contrapting"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "3B5764392B7A9B42"
+			secret: true
+			tasks: [{
+				id: "0EDEE3ED20BB05CA"
+				type: "checkmark"
+			}]
+			title: "runic altar"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "11DF463B7B9343C8"
+			secret: true
+			tasks: [{
+				id: "03E0E21F4BB8DAB9"
+				type: "checkmark"
+			}]
+			title: "endoflame"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "3F48EB57AC366753"
+			secret: true
+			tasks: [{
+				id: "1D6118AED52A4D80"
+				type: "checkmark"
+			}]
+			title: "gourmalysis"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "788B83C5EA491360"
+			secret: true
+			tasks: [{
+				id: "47C9C180692E0C93"
+				type: "checkmark"
+			}]
+			title: "terrestrial agglomeration"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "1496AE8CDFAF3FDD"
+			secret: true
+			tasks: [{
+				id: "589F173DAE9DD200"
+				type: "checkmark"
+			}]
+			title: "elven trade"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "6F6316971A426DE2"
+			secret: true
+			tasks: [{
+				id: "2CED6FC633D5780B"
+				type: "checkmark"
+			}]
+			title: "gaia pylon"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "069D7D3E6B4E9ED2"
+			secret: true
+			tasks: [{
+				id: "706BE73AA201BD06"
+				type: "checkmark"
+			}]
+			title: "corporea"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "0553B595080AC8BE"
+			secret: true
+			tasks: [{
+				id: "19E5BA6F50D58590"
+				type: "checkmark"
+			}]
+			title: "loonium"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "657F08DC31A4EEA6"
+			secret: true
+			tasks: [{
+				id: "12AD2D18800E5393"
+				type: "checkmark"
+			}]
+			title: "mechanical crafter"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "13E61ED470BE9CB7"
+			secret: true
+			tasks: [{
+				id: "0A137F1A8612707B"
+				type: "checkmark"
+			}]
+			title: "package logistics"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "3462EF026D8B27ED"
+			secret: true
+			tasks: [{
+				id: "5757AB26A80D778F"
+				type: "checkmark"
+			}]
+			title: "logistics gauges"
+			x: 3.0d
+			y: -6.0d
 		}
 	]
 	title: "&b The Lab &r✔"

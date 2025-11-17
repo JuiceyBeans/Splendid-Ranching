@@ -82,6 +82,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["The initial release of splendid ranching!"]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -94,7 +95,7 @@
 			}
 			id: "24E863D73CB9070F"
 			shape: "gear"
-			subtitle: "Splendid Ranching!"
+			subtitle: "Splendid Ranching Alpha!"
 			title: "Version 0.1.0"
 			x: -1.0d
 			y: -2.0d

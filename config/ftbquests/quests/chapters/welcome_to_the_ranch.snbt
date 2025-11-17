@@ -33,8 +33,7 @@
 				"&2[ &bClass&r-&d&lS&r Variated &dGela-form&r &ahabitat&r &2]"
 				"&2[ &bClass&r-&l&21&r &4Danger &rlevel &2] "
 				""
-				"&6Lucky&r you! An &oalmost&r &6perfect&r &aenvironment&r with &onearly&r no danger!! &9^o^&r "
-				"&4[ Who the &lh&ke&r&l&4ll&r &4let &o&lYou&r &4get this. ]"
+				"&6Lucky&r you! An &oalmost&r &6perfect&r &aenvironment&r with &onearly&r no danger!! &9^o^&r"
 				""
 				"Though still unfortunately, the &asphere&r seems to have very little resources in it. No &6precious&r harvestable metals... You'll have to make due with the products of &dslimes&r and &9&lour&r &cmarket&r!"
 				""
@@ -147,7 +146,7 @@
 		{
 			dependencies: ["105AAC47FE089F4B"]
 			description: [
-				"Your primary assigned task is to discover and record all of the &dGela-forms&r present on the &asphere&r."
+				"Your primary assigned task is to discover and record all of the &dGela-forms&r present on the &asphere&r"
 				""
 				"You are also&6 heavily encouraged&r to crossbreed any undiscovered &dGela-forms&r you may find, and record the data of the products!"
 				""
@@ -324,11 +323,11 @@
 			description: [
 				"Around the &asphere&r you'll find wild &dgelaforms&r roaming the surface"
 				""
-				"Your &eSlime-Vac&r can be used to pull and collect the &dslimes&r by sneaking near them or by holding the trigger while on \"&dSlime&r\" mode"
+				"Your &eSlime-Vac&r can be used to pull and collect the &dslimes&r by sneaking near them or by holding the trigger while on \"&d&lSlime&r\" or \"&lBoth&r\" mode"
 				""
 				"The mode of your &eSlime-Vac&r can be cycled using the \"&e&lV&r\" key by default!"
 				""
-				"Holding more than 3 &dslimes&r on you at once can be a little cumbersome... "
+				"Holding more than 4 &dslimes&r on you at once can be a little cumbersome... "
 			]
 			icon: {
 				Count: 1
@@ -372,6 +371,27 @@
 		}
 		{
 			dependencies: ["540EA146149A0210"]
+			description: [
+				"To keep your &dslimes&r happy and producing &eplorts&r, they must be fed!"
+				""
+				"The &asphere&f has foods and animals scattered about that varying &dslimes&r can eat"
+				""
+				"Every individual &dslime&r breed has it's own diet being &eitems&r or mobs it can eat, along with a favorite food in that diet group"
+				""
+				"you should experiment to find which the &dslimes&r favorite food is!"
+				""
+				"&dSlimes&r will eat &eitems&r of it's diet found on the ground, mobs nearby, or &eitems&r placed inside of a &eslime feeder&r"
+				""
+				""
+				"When &dslimes&f are fed an &eitem&r or mob they eat, "
+				"&nthe following happens:"
+				""
+				"- If the &dslime&r is less than its max size (3 for \"Pure\" &dslimes&r), the Slime will grow"
+				"- &dSlimes&r will be healed by 1 heart"
+				"- If &dslimes&r are at least size 3, they will produce a &eplort&r of it's breed"
+				"- If the &dslime&r is a &dlargo,&r it will also produce a &eplort&r of it's sub-breed"
+				"- &dSlimes&r will be happier and their happiness will stop decreasing (if they were starving)"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -380,6 +400,7 @@
 				}
 			}
 			id: "24EC9B4811458C2E"
+			min_width: 350
 			shape: "rsquare"
 			subtitle: "How hungry."
 			tasks: [{
@@ -392,6 +413,17 @@
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
+			description: [
+				"&ePlorts&r are gelatinous balls left on the ground when a &dslime&r is fed at it's max size"
+				""
+				"Regularly 1 &eplort&r will be produced, 2 when fed it's &efavorite food&r, and for &dlargo slimes&r one of each of the breeds"
+				""
+				"They are the main &eproducts&r of &dslimes&r, sought out for containing &6valuable&r &eresources&r within that can be extracted with a &ePlort Rippit&r!"
+				""
+				"However you don't quite want to extract &eresources&r from ALL of the &eplorts&r you get"
+				""
+				"They can be sold on the &cPlort Market&r from a &eSales Terminal&r for &cGlubcoins&r, or saved up to form a new slime with a &ePlort Press&r and &eIncubator&r"
+			]
 			icon: {
 				Count: 1
 				id: "splendid_slimes:plort"
@@ -402,6 +434,7 @@
 				}
 			}
 			id: "1E8294B92E62B946"
+			min_width: 350
 			rewards: [{
 				id: "480D7E663F6FD9B3"
 				item: "mbd2:selling_port"
@@ -430,10 +463,18 @@
 			icon: "mbd2:selling_port"
 			id: "3A30D0E70BEA4946"
 			shape: "rsquare"
-			tasks: [{
-				id: "157C41866305863C"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "157C41866305863C"
+					type: "checkmark"
+				}
+				{
+					count: 2L
+					id: "2161E0FE3D051082"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
 			title: "&fSelling &dPlorts"
 			x: -2.0d
 			y: 2.0d
@@ -453,14 +494,21 @@
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
+			description: [
+				"The &ePlort Press&r is a machine used to create &eSlime Hearts&r"
+				""
+				"Most &dslimes&r can use the &ePlort Press&r to form a new "
+				"&eSlime Heart&r using a number of the &dslime&r breeds &eplorts&r "
+			]
 			icon: "splendid_slimes:plort_press"
 			id: "605E7F63ACF29D56"
+			min_width: 300
 			shape: "rsquare"
 			tasks: [{
 				id: "7AA1ED39BBD0C2EB"
 				type: "checkmark"
 			}]
-			title: "Slime heart formation"
+			title: "&eSlime Heart&f Formation"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -503,7 +551,7 @@
 				item: "mbd2:slime_breeder"
 				type: "item"
 			}]
-			title: "Slime Fusion"
+			title: "&dSlime&f Fusion Breeding"
 			x: -4.0d
 			y: 0.0d
 		}
@@ -676,7 +724,7 @@
 		{
 			dependencies: ["540EA146149A0210"]
 			description: [
-				"While &dslimes&r can be stored in any sort of containment, certain &dslimes&r may be able to get through the materials "
+				"While &dslimes&r can be stored in any sort of containment, certain &dslimes&r may be able to get through the materials"
 				""
 				"And it can be difficult to manage the &dslimes&r in these pens, jumping in and out to collect &eplorts&r or feed them"
 				""
@@ -687,6 +735,8 @@
 				"When powered with redstone it will also prevent all other mobs from passing through the block"
 				""
 				"You can purchase more &eCorral&r blocks from the &cSplendid Wares&r Quest Page! (When unlocked)"
+				""
+				"Also, to stop yourself from making &dlargos&r accidentally, different breeds of &dslime&r should be in seperate pens!"
 			]
 			icon: "splendid_slimes:corral_block"
 			id: "7AA6A101567ED2C6"
