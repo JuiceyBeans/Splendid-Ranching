@@ -1,3 +1,4 @@
+// slime heart plort duplication recipes
 ServerEvents.recipes(e => {
     e.remove({ type: 'splendid_slimes:plort_pressing' })
 
@@ -5,9 +6,11 @@ ServerEvents.recipes(e => {
     for (const [slimeType, slimeData] of Object.entries(global.slimeDefinitionsData)) {
         let valueData = global.baseSlimeValueData[slimeType]
 
+        // continue if slime has no value data or no slime dupe cost
         if (valueData === undefined) { continue }
         if (1 > valueData.slimeDupeCost || valueData.slimeDupeCost === undefined) { continue }
 
+        // add slime heart duplication recipe
         e.custom({
             type: "splendid_slimes:plort_pressing",
             ingredient: {
@@ -27,55 +30,11 @@ ServerEvents.recipes(e => {
                     }
                 }
             }
-        }).id(`kubejs:generated/heart_pressing/${slimeType}`)
+        }).id(`kubejs:generated/heart_pressing/dupe/${slimeType}`)
     }
 })
 
-// let placeholder = {
-//     type: "splendid_slimes:plort_pressing",
-//     ingredient: {
-//         item: "splendid_slimes:slime_heart",
-//         nbt: {
-//             slime: {
-//                 id: "splendid_slimes:luminous"
-//             }
-//         }
-//     },
-//     output: {
-//         item: "splendid_slimes:slime_heart",
-//         nbt: {
-//             slime: {
-//                 id: "splendid_slimes:webby"
-//             }
-//         }
-//     },
-//     result: {
-//         item: "splendid_slimes:slime_heart",
-//         nbt: {
-//             slime: {
-//                 id: "splendid_slimes:all_seeing"
-//             }
-//         }
-//     }
-// }
+// other plort pressing recipes
+ServerEvents.recipes(e=> {
 
-let placeholder = {
-    type: "splendid_slimes:plort_pressing",
-    ingredient: {
-        count: 32,
-        item: "splendid_slimes:plort",
-        nbt: {
-            plort: {
-                id: "splendid_slimes:blazing"
-            }
-        }
-    },
-    result: {
-        item: "splendid_slimes:slime_heart",
-        nbt: {
-            slime: {
-                id: "splendid_slimes:blazing"
-            }
-        }
-    }
-}
+})
