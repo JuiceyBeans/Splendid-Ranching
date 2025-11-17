@@ -14,6 +14,12 @@ MBDMachineEvents.onTick("mbd2:splendid_generator", e => {
     /** @type {ItemStackTransfer.prototype} */
     const itemStorage = itemTrait.storage
     try {
+        if (machine.customData.getInt("anim_time") > 0) {
+            machine.customData.putInt("anim_time", machine.customData.getInt("anim_time") - 1)
+        } else {
+            machine.triggerGeckolibAnim('idle', 1)
+        }
+
         let stack = itemStorage.getStackInSlot(0)
         if (!stack.nbt || stack.nbt['AccountID'] == null) return
 
@@ -31,12 +37,15 @@ MBDMachineEvents.onTick("mbd2:splendid_generator", e => {
         }
 
         // Determine how much glubcoin can be converted into energy
-        // Each glubcoin = 1000 energy, up to 10 gips at once, and limited by balance and storage capacity
-        let maxDollarsPossible = Math.min(10, balance, Math.floor(spaceAvailable / 10000))
+        // Each glubcoin = 2500 energy, up to 10 gips at once for 25000 energy,
+        // and limited by balance and storage capacity
+        let maxDollarsPossible = Math.min(10, balance, Math.floor(spaceAvailable / 2500))
 
         if (maxDollarsPossible > 0) {
             account.deduct(maxDollarsPossible)
-            energyStorage.receiveEnergy(maxDollarsPossible * 10000, false)
+            energyStorage.receiveEnergy(maxDollarsPossible * 2500, false)
+            machine.triggerGeckolibAnim('working', 1)
+            machine.customData.putInt("anim_time", 5)
         }
     } catch (err) {
         console.error(err)
@@ -54,7 +63,6 @@ MBDMachineEvents.onUI("mbd2:splendid_generator", e => {
             machine.customData.putInt("max_energy", 50000)
         }
         textfield.setCurrentString(machine.customData.getInt("max_energy"))
-
         textfield.setTextResponder(s => {
             machine.customData.putInt("max_energy", Number(s))
         })

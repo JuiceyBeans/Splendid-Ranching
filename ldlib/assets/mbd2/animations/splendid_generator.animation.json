@@ -1,7 +1,7 @@
 {
   "format_version": "1.8.0",
   "animations": {
-    "animation.splendid_generator.working": {
+    "working": {
       "loop": true,
       "animation_length": 1,
       "bones": {
@@ -47,7 +47,7 @@
         }
       }
     },
-    "animation.splendid_generator.idle": {
+    "idle": {
       "loop": true
     }
   },
