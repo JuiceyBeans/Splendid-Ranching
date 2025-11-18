@@ -66,16 +66,18 @@ MBDMachineEvents.onUI("mbd2:selling_port", e => {
 
         let sellPrice = machine.customData.getInt("sell_price") // get sell price from machine data
         let coinItems = global.getSellCoins(sellPrice) // get coin items from sell price
+        machine.level.playSound(null, machine.pos.x, machine.pos.y, machine.pos.z, "create:stock_ticker_trade", "blocks", 1, 1)
 
         // iterate through coin items and pop them out of the machines top face
-        for (let i = 0; i < coinItems.length; i++) {
-            machine.level.getBlock(machine.pos).popItemFromFace(coinItems[i], "up")
-            let a = i
-            Utils.server.scheduleInTicks(10000 * a, () => {
+
+        machine.level.server.scheduleInTicks(10, () => {
+            for (let i = 0; i < coinItems.length; i++) {
+                machine.level.getBlock(machine.pos).popItemFromFace(coinItems[i], "up")
+                let a = i
                 let block = machine.level.getBlock(machine.pos)
                 block.popItemFromFace(coinItems[i], "up")
-            })
-        }
+            }
+        })
 
         let dailySoldObj = machine.level.server.persistentData['daily_sold_plorts'] // get the daily sold plorts server data
         // add sold plorts to the daily sold plorts server data
