@@ -148,7 +148,7 @@
 			description: [
 				"Your primary assigned task is to discover and record all of the &dGela-forms&r present on the &asphere&r"
 				""
-				"You are also&6 heavily encouraged&r to crossbreed any undiscovered &dGela-forms&r you may find, and record the data of the products!"
+				"You are also&6 heavily encouraged&r to perform \"Fusion Breeding\" on any undiscovered &dGela-forms&r you may find, and record the data of the products!"
 				""
 				"A secondary task has also been given, you are required to deliver &dplort&r samples cultivated from &dslimes&r via a &esales terminal&r."
 				""
@@ -321,7 +321,7 @@
 		{
 			dependencies: ["6B93B28705E58C2F"]
 			description: [
-				"Around the &asphere&r you'll find wild &dgelaforms&r roaming the surface"
+				"Around the &asphere&r you'll find wild &dGelaforms&r roaming the surface"
 				""
 				"Your &eSlime-Vac&r can be used to pull and collect the &dslimes&r by sneaking near them or by holding the trigger while on \"&d&lSlime&r\" or \"&lBoth&r\" mode"
 				""
@@ -378,9 +378,9 @@
 				""
 				"Every individual &dslime&r breed has it's own diet being &eitems&r or mobs it can eat, along with a favorite food in that diet group"
 				""
-				"you should experiment to find which the &dslimes&r favorite food is!"
+				"you should experiment to find which the &dslimes&r &efavorite food&r is!"
 				""
-				"&dSlimes&r will eat &eitems&r of it's diet found on the ground, mobs nearby, or &eitems&r placed inside of a &eslime feeder&r"
+				"&dSlimes&r will eat &eitems&r of it's diet found on the ground, mobs nearby, or &eitems&r placed inside of a &eSlime Feeder&r"
 				""
 				""
 				"When &dslimes&f are fed an &eitem&r or mob they eat, "
@@ -442,30 +442,42 @@
 			}]
 			shape: "rsquare"
 			subtitle: "ewww..."
-			tasks: [{
-				consume_items: true
-				count: 4L
-				id: "5C842B2EA6173B92"
-				item: {
-					Count: 1
-					id: "splendid_slimes:plort"
-					tag: { }
+			tasks: [
+				{
+					id: "6BAE19C516B656A5"
+					type: "checkmark"
 				}
-				match_nbt: false
-				type: "item"
-			}]
-			title: "&fCultivating &dPlorts"
+				{
+					count: 4L
+					id: "5CFB92715C6E157A"
+					item: { Count: 4, id: "splendid_slimes:plort" }
+					type: "item"
+				}
+			]
+			title: "&fCultivating &ePlorts"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1E8294B92E62B946"]
+			description: [
+				"On the completion of your last task &9&lwe&r granted you a &eSales Terminal&r"
+				""
+				"The &eSales Terminal&r is your primary means of earning &ccurrency&r for your work"
+				""
+				"Using the machines interface you can deposit &eplorts&r into the slots and select the sell button to confirm sending them to the &l&9SSCCOGAC&r for payment in &cGlubcoins&r"
+				""
+				"The &eSales Terminal&r is patented technology, do not tamper with it to try and understand the inner workings or your contract and stay on &d&lGelatine-XB47&r will be &4void&r &9^o^"
+			]
 			icon: "mbd2:selling_port"
 			id: "3A30D0E70BEA4946"
+			min_width: 300
 			shape: "rsquare"
+			subtitle: "Cha-ching!"
 			tasks: [
 				{
 					id: "157C41866305863C"
+					title: "Sales Time!"
 					type: "checkmark"
 				}
 				{
@@ -475,13 +487,25 @@
 					type: "item"
 				}
 			]
-			title: "&fSelling &dPlorts"
+			title: "&fSelling &ePlorts"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
+			description: [
+				"This machine is the &ePlort Rippit&r. It is used to extract many &eresources&r from &eplorts&r!"
+				""
+				"Every &dslime&r breeds &eplort&r has different resources it can produce"
+				""
+				"Some &eplorts&r have one item that can be extracted, some have several more! There can be 9 different possible outputs at most but you will always receive &o&njust one&r of the outputs"
+				""
+				"The item you extract from the &eplort&r using the &eRippit&r is random, some items output more frequently than others"
+				""
+				"The chance of each output is listed in your Recipe Guide"
+			]
 			id: "01150FF03DEBB716"
+			min_width: 300
 			shape: "hexagon"
 			tasks: [{
 				id: "16E1630DD18F33D9"
@@ -497,8 +521,7 @@
 			description: [
 				"The &ePlort Press&r is a machine used to create &eSlime Hearts&r"
 				""
-				"Most &dslimes&r can use the &ePlort Press&r to form a new "
-				"&eSlime Heart&r using a number of the &dslime&r breeds &eplorts&r "
+				"Most breeds of &dslime&r can use a number of their &eplort&r placed in the &ePlort Press&r to compress them into a whole new &eSlime Heart&r, which can be incubated into a new &dslime&r with an &eIncubator&r"
 			]
 			icon: "splendid_slimes:plort_press"
 			id: "605E7F63ACF29D56"
@@ -514,25 +537,46 @@
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
+			description: [
+				"&eSlime Hearts&r obtained from the &ePlort Press&r or &eFusion Breeder&r can be placed inside of an incubator to be slowly grown into a whole new &dslime&r!"
+				""
+				"After a while the newly grown &dslime&r is ejected from the back of the &eIncubator&r"
+				""
+				"The newly grown &dslime&r will start as a \"wild &dslime&r\" with Neutral happiness"
+			]
 			id: "56F49C5A7B13623E"
+			min_width: 300
 			shape: "hexagon"
+			subtitle: "It's aliiiiive!"
 			tasks: [{
 				id: "6AA11F7EC4B8C775"
 				item: "splendid_slimes:slime_incubator"
 				type: "item"
 			}]
-			title: "Growing slime hearts"
+			title: "&fGrowing &eSlime Hearts"
 			x: -4.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
-			description: [""]
+			description: [
+				"Our &cSplendid Wares Shop&r provides ranchers (thats you!) many utilities"
+				""
+				"Allowing you to &cpurchase&r more of our own &9&lSSCCOGAC&r Technology!"
+				""
+				"&nIncluding but not limited to:&r"
+				""
+				"- Sales related machines and tools"
+				"- &dSlime&r related cultivation and processing machines"
+				"- Electrical wiring equipment"
+				"- Portable storage"
+				"- Area clearing gadgetry"
+			]
 			hide_dependent_lines: true
 			icon: "numismatics:creative_vendor"
 			id: "2FDFFE3208FF3C16"
+			min_width: 300
 			shape: "hexagon"
-			subtitle: "I love capitalism!"
 			tasks: [{
 				id: "52D66243AA5C9C74"
 				title: "I LOVE CAPITALISM !!!"
@@ -581,8 +625,43 @@
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
+			description: [
+				"When a &dslime&r is first found it'll typically have the \"Neutral\" state, this is the &dslimes current happiness"
+				""
+				"You can view the current happiness state by looking at the &dslime&r close up"
+				""
+				"Both wild and fed &dslimes&r have happiness, but you can only see the state of one that has been fed before"
+				""
+				"&a&l&n^ Increasing"
+				"- &dSlimes&r have their happiness increased when fed"
+				"- Eating it's &efavorite food&r will increase by double the amount"
+				"- When eating near at least 3 &dslimes&r of the same breed, it will gain more happiness, and even more so when near 6-7 &dslimes"
+				"- Eating a &eSlime Candy&r will increase a &dslimes&r happiness state instantly"
+				""
+				"&c&l&nV Decreasing"
+				"- When not fed for a while a &dslime&r will begin starving and happiness will gradually decrease"
+				"- When killed and reduced to a lower size, a &dslimes&r happiness greatly decreases"
+				"- If fed and near 9 or more &dslimes&r of the same breed, happiness will also greatly decrease"
+				""
+				"&l&nVery important info on &dslime&f happiness states:&r &8[&a➡&8]&r"
+				"{@pagebreak}"
+				"&dSlimes&r have 4 different happiness states: &aHappy&r, &7Neutral&r, &9Sad&r, and &cFurious&r. Each state will cause or limit certain behaviors."
+				""
+				"&a&l&nHappy"
+				"Happy &dslimes&r will perform their specified positive behaviors if they exist! The more happy a &dslime&r is, the more it will perform it's positive effects."
+				""
+				"&7&l&nNeutral"
+				"The basic happiness state of a &dslime&r. It won't perform any negative behaviors, but it won't perform any positive ones either. Incubated &dslimes&r are born in this state!"
+				""
+				"&9&l&nSad"
+				"Sad &dslimes&r will still produce Plorts, but they won't be happy about it. They'll perform negative behaviors more and more as their happiness decreases."
+				""
+				"&c&l&nFurious"
+				"At extremely low levels of happiness, &dslimes&r will attack the player. They will frequently perform negative behaviors, won't produce Plorts, and won't turn into &dLargo slimes&r."
+			]
 			icon: "numismatics:sun"
 			id: "6352FC5322CFD542"
+			min_width: 350
 			shape: "hexagon"
 			tasks: [{
 				id: "44FD8F44041E06A3"
@@ -595,17 +674,31 @@
 		}
 		{
 			dependencies: ["1E8294B92E62B946"]
+			description: [
+				"Feeding a non-furious slime another slimes plort will create a Largo Slime!"
+				""
+				"These slimes become a combination of both the original slime, and the slime breed of the plort eaten"
+				""
+				"Largo slimes output a plort for each of the breeds and even share a diet, though slimes with the dominant or recessive traits can change the diet outcome for largo slimes"
+				""
+				"The new largo slime will use the base of the original slime, and the hat from the plort eaten"
+				""
+				"Feeding a largo slime a 3rd time of plort can cause... Bad things! ^=^"
+				""
+				"Also note you cannot pick up Largo Slimes using your Slime-Vac, it will just pull them around"
+			]
 			icon: {
 				Count: 1
 				id: "splendid_slimes:slime_item"
 				tag: {
 					slime: {
-						id: "splendid_slimes:gem"
+						id: "splendid_slimes:gold"
 					}
 				}
 			}
 			icon_scale: 1.2d
 			id: "41CE67FFD8A648DC"
+			min_width: 300
 			shape: "hexagon"
 			tasks: [{
 				id: "5962EBF3AE58852F"
@@ -702,6 +795,17 @@
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
+			description: [
+				"The rate at which you sell &eplorts&r for through a &eSales Terminal&r is not static, in fact it is greatly ever-changing!"
+				""
+				"Every day early in the morning, the whole &cmarket&r and each individual &eplorts&r values will &cfluctuate&r, and you will be alerted on the updates"
+				""
+				"Selling a &eplort&r will cause the &dslime&r breeds &eplort&r &cmarket price&r to drop based on however much you sold on the next day, prices will not change mid day"
+				""
+				"On top of that there can be &eplorts&r in &6high demand&r, having a &6hugely&r inflated &csell price&r for the day!"
+				""
+				"Due to all these &cfluctuations&r it may be a good idea to hold onto your &eplorts&r until there is a good day to sell them, or wait for their price to recover after selling plenty"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -710,14 +814,14 @@
 				}
 			}
 			id: "40C6C595C39C2067"
+			min_width: 300
 			shape: "hexagon"
-			subtitle: "Let's go gambling!"
 			tasks: [{
 				id: "592DB0227656D80C"
-				title: "The Plort Market"
+				title: "Let's go gambling!"
 				type: "checkmark"
 			}]
-			title: "&fThe &dPlort &cMarket"
+			title: "&fThe &ePlort &cMarket"
 			x: -1.5d
 			y: 4.0d
 		}
