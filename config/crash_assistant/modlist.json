@@ -9,11 +9,6 @@
     "modId": "advancedperipherals",
     "version": "0.7.46r"
   },
-  "AI-Improvements-1.20-0.5.2.jar": {
-    "jarName": "AI-Improvements-1.20-0.5.2.jar",
-    "modId": "aiimprovements",
-    "version": "0.5.2"
-  },
   "aiotbotania-1.20.1-4.0.6.jar": {
     "jarName": "aiotbotania-1.20.1-4.0.6.jar",
     "modId": "aiotbotania",
@@ -94,6 +89,11 @@
     "modId": "blueprint",
     "version": "7.1.3"
   },
+  "Bookshelf-Forge-1.20.1-20.2.13.jar": {
+    "jarName": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+    "modId": "bookshelf",
+    "version": "20.2.13"
+  },
   "Botania-1.20.1-450-FORGE.jar": {
     "jarName": "Botania-1.20.1-450-FORGE.jar",
     "modId": "botania",
@@ -108,6 +108,11 @@
     "jarName": "buildinggadgets2-1.0.8.jar",
     "modId": "buildinggadgets2",
     "version": "1.0.8"
+  },
+  "cc-tweaked-1.20.1-forge-1.116.2.jar": {
+    "jarName": "cc-tweaked-1.20.1-forge-1.116.2.jar",
+    "modId": "computercraft",
+    "version": "1.116.2"
   },
   "citadel-2.6.2-1.20.1.jar": {
     "jarName": "citadel-2.6.2-1.20.1.jar",
@@ -199,10 +204,10 @@
     "modId": "createaddition",
     "version": "1.20.1-1.3.3"
   },
-  "createadditionallogistics-1.20.1-1.4.3.jar": {
-    "jarName": "createadditionallogistics-1.20.1-1.4.3.jar",
+  "createadditionallogistics-1.20.1-1.4.4.jar": {
+    "jarName": "createadditionallogistics-1.20.1-1.4.4.jar",
     "modId": "createadditionallogistics",
-    "version": "1.4.3"
+    "version": "1.4.4"
   },
   "CreateNumismatics-1.0.15+forge-mc1.20.1.jar": {
     "jarName": "CreateNumismatics-1.0.15+forge-mc1.20.1.jar",
@@ -258,11 +263,6 @@
     "jarName": "essentials-1.20.1-2.16.0.jar",
     "modId": "essentials",
     "version": "1.20.1-2.16.0"
-  },
-  "ExplorersCompass-1.20.1-1.3.3-forge.jar": {
-    "jarName": "ExplorersCompass-1.20.1-1.3.3-forge.jar",
-    "modId": "explorerscompass",
-    "version": "1.20.1-1.3.3-forge"
   },
   "extra_gauges-2.0.7.jar": {
     "jarName": "extra_gauges-2.0.7.jar",
@@ -343,6 +343,11 @@
     "jarName": "Galosphere-1.20.1-1.4.1-Forge.jar",
     "modId": "galosphere",
     "version": "1.20.1-1.4.1"
+  },
+  "GameStages-Forge-1.20.1-15.0.2.jar": {
+    "jarName": "GameStages-Forge-1.20.1-15.0.2.jar",
+    "modId": "gamestages",
+    "version": "15.0.2"
   },
   "geckolib-forge-1.20.1-4.8.2.jar": {
     "jarName": "geckolib-forge-1.20.1-4.8.2.jar",
@@ -487,11 +492,6 @@
     "modId": "mbd2",
     "version": "1.0.36"
   },
-  "NaturesCompass-1.20.1-1.11.2-forge.jar": {
-    "jarName": "NaturesCompass-1.20.1-1.11.2-forge.jar",
-    "modId": "naturescompass",
-    "version": "1.20.1-1.11.2-forge"
-  },
   "notenoughcrashes-4.4.9+1.20.1-forge.jar": {
     "jarName": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
     "modId": "notenoughcrashes",
@@ -572,6 +572,11 @@
     "modId": "quickstack",
     "version": "1.20.1-1"
   },
+  "RecipeStages-8.0.0.2.jar": {
+    "jarName": "RecipeStages-8.0.0.2.jar",
+    "modId": "recipestages",
+    "version": "8.0.0.2"
+  },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
     "modId": "resourcefulconfig",
@@ -602,6 +607,16 @@
     "modId": "smoothchunk",
     "version": "1.20.1-4.1"
   },
+  "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": {
+    "jarName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+    "modId": "sodiumdynamiclights",
+    "version": "1.0.9"
+  },
+  "sodiumoptionsapi-forge-1.0.10-1.20.1.jar": {
+    "jarName": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+    "modId": "sodiumoptionsapi",
+    "version": "1.0.10"
+  },
   "sophisticatedbackpacks-1.20.1-3.24.12.1411.jar": {
     "jarName": "sophisticatedbackpacks-1.20.1-3.24.12.1411.jar",
     "modId": "sophisticatedbackpacks",
@@ -627,10 +642,10 @@
     "modId": "structure_layout_optimizer",
     "version": "1.0.11"
   },
-  "structurify-forge-2.0.5a+mc1.20.1.jar": {
-    "jarName": "structurify-forge-2.0.5a+mc1.20.1.jar",
+  "structurify-forge-2.0.6a+mc1.20.1.jar": {
+    "jarName": "structurify-forge-2.0.6a+mc1.20.1.jar",
     "modId": "structurify",
-    "version": "2.0.5a"
+    "version": "2.0.6a"
   },
   "supplementaries-1.20-3.1.41.jar": {
     "jarName": "supplementaries-1.20-3.1.41.jar",
@@ -641,11 +656,6 @@
     "jarName": "ToastControl-1.20.1-8.0.3.jar",
     "modId": "toastcontrol",
     "version": "8.0.3"
-  },
-  "tunnelyrefab-forge-1.6.4-SNAPSHOT.jar": {
-    "jarName": "tunnelyrefab-forge-1.6.4-SNAPSHOT.jar",
-    "modId": "tunnelyrefab",
-    "version": "1.6.4-SNAPSHOT"
   },
   "turtlematic-forge-1.20.1-1.4.6.jar": {
     "jarName": "turtlematic-forge-1.20.1-1.4.6.jar",

@@ -8,43 +8,6 @@
     },
     "projects": [
         {
-            "pakku_id": "ltbWhN3eAyRQmUEU",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ai-improvements"
-            },
-            "name": {
-                "curseforge": "AI Improvements"
-            },
-            "id": {
-                "curseforge": "233019"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "AI-Improvements-1.20-0.5.2.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4578/262/AI-Improvements-1.20-0.5.2.jar",
-                    "id": "4578262",
-                    "parent_id": "233019",
-                    "hashes": {
-                        "sha1": "11ad483d1fd1f7ebd84b4940b1dc0926b3e9daa8",
-                        "md5": "9a6776ce2deab597d198e8755daa56ff"
-                    },
-                    "required_dependencies": [],
-                    "size": 29553,
-                    "date_published": "2023-06-10T14:32:49.250Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TmyRjupK3HesHKC0",
             "pakku_links": [
                 "WoziNxZDFdBSmp7d"
@@ -2187,42 +2150,6 @@
             ]
         },
         {
-            "pakku_id": "BY4KfHEKnBWjzFIn",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "explorers-compass"
-            },
-            "name": {
-                "curseforge": "Explorer's Compass"
-            },
-            "id": {
-                "curseforge": "491794"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ExplorersCompass-1.20.1-1.3.3-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4712/194/ExplorersCompass-1.20.1-1.3.3-forge.jar",
-                    "id": "4712194",
-                    "parent_id": "491794",
-                    "hashes": {
-                        "sha1": "4c327f26a44ab8d80d73961ff12700d120c4610c",
-                        "md5": "9b52fd19e49b6fc0d964a43b90de00e2"
-                    },
-                    "required_dependencies": [],
-                    "size": 155257,
-                    "date_published": "2023-08-19T14:01:58.310Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "nCmxosmzVkhAJVLK",
             "pakku_links": [
                 "cWaWDFhXMuQiyw9m"
@@ -4070,42 +3997,6 @@
             ]
         },
         {
-            "pakku_id": "P0jkXDdM6AoKhV5f",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "natures-compass"
-            },
-            "name": {
-                "curseforge": "Nature's Compass"
-            },
-            "id": {
-                "curseforge": "252848"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "NaturesCompass-1.20.1-1.11.2-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4712/189/NaturesCompass-1.20.1-1.11.2-forge.jar",
-                    "id": "4712189",
-                    "parent_id": "252848",
-                    "hashes": {
-                        "sha1": "31ae930cdbb34e8e05e1954cfb2fee3a3813e850",
-                        "md5": "7c05072645b1aae529b1e38c74b87c4c"
-                    },
-                    "required_dependencies": [],
-                    "size": 215119,
-                    "date_published": "2023-08-19T13:57:24.937Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "RdZJQVLLbKFBn6bW",
             "type": "MOD",
             "slug": {
@@ -4924,6 +4815,87 @@
                     "required_dependencies": [],
                     "size": 1508496,
                     "date_published": "2024-11-22T21:48:02.250Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Q8vadmO9pJ6huVRh",
+            "pakku_links": [
+                "edbXrLw2N0mgb3Th"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "dynamiclights-reforged"
+            },
+            "name": {
+                "curseforge": "Sodium/Embeddium Dynamic Lights"
+            },
+            "id": {
+                "curseforge": "551736"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6044/481/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+                    "id": "6044481",
+                    "parent_id": "551736",
+                    "hashes": {
+                        "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9",
+                        "md5": "687c18cefa558ca8101ef97914d9ba6b"
+                    },
+                    "required_dependencies": [
+                        "1103431"
+                    ],
+                    "size": 511601,
+                    "date_published": "2025-01-02T01:22:43.027Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "edbXrLw2N0mgb3Th",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sodium-options-api"
+            },
+            "name": {
+                "curseforge": "Sodium/Embeddium Options API"
+            },
+            "id": {
+                "curseforge": "1103431"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6100/812/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+                    "id": "6100812",
+                    "parent_id": "1103431",
+                    "hashes": {
+                        "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
+                        "md5": "75807590ae2648ecdeb855705868ce59"
+                    },
+                    "required_dependencies": [
+                        "908741"
+                    ],
+                    "size": 443978,
+                    "date_published": "2025-01-18T20:48:18.013Z"
                 }
             ]
         },
