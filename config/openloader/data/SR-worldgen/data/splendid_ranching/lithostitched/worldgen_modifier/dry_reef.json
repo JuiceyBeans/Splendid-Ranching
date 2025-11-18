@@ -74,7 +74,7 @@
               {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:pink_terracotta"
+                  "Name": "minecraft:terracotta"
                 }
               }
             ]
@@ -144,7 +144,7 @@
               {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:pink_terracotta"
+                  "Name": "minecraft:terracotta"
                 }
               }
             ]
@@ -169,7 +169,7 @@
         {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:terracotta"
+            "Name": "minecraft:pink_terracotta"
           }
         }
       ]
