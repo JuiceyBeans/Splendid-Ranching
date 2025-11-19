@@ -774,7 +774,7 @@
 	Corundum = true
 	"Fairy Rings" = false
 	"Fallen Logs" = false
-	"Glimmering Weald" = false
+	"Glimmering Weald" = true
 	"Monster Box" = false
 	"Nether Obsidian Spikes" = false
 	"New Stone Types" = false

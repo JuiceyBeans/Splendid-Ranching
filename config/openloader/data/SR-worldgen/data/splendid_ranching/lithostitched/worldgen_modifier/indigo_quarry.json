@@ -41,7 +41,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:grass_block"
+                      "Name": "galosphere:lichen_moss"
                     }
                   }
                 }
@@ -66,7 +66,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:dirt"
+                      "Name": "galosphere:lichen_moss"
                     }
                   }
                 }
@@ -111,7 +111,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:grass_block"
+                      "Name": "galosphere:lichen_moss"
                     }
                   }
                 }
@@ -136,7 +136,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:dirt"
+                      "Name": "galosphere:lichen_moss"
                     }
                   }
                 }

@@ -25,12 +25,12 @@
   },
   "features": [
     [
-      "splendid_ranching:indigo_quarry/indigo_corundum_placed",
-      "splendid_ranching:indigo_quarry/green_corundum_placed",
-      "splendid_ranching:grass_placed",
-      "splendid_ranching:indigo_quarry/flowers_placed",
-      "splendid_ranching:indigo_quarry/beetroots_placed",
-      "splendid_ranching:indigo_quarry/chorus_placed"
+      "splendid_ranching:indigo_quarry/chorus_placed",
+      "splendid_ranching:indigo_quarry/lichen_placed",
+      "splendid_ranching:indigo_quarry/glow_shroom_placed",
+      "splendid_ranching:indigo_quarry/bowl_lichen_placed",
+      "quark:glow_shrooms"
+
     ],
     [],
     [],
