@@ -9,7 +9,6 @@ ServerEvents.loaded(e => {
         e.server.persistentData['slime_value_data'] = global.baseSlimeValueData
         e.server.persistentData['daily_sold_plorts'] = {}
         e.server.persistentData['daily_sold_total'] = 0
-        e.server.persistentData['reset_cooldown'] = 24000
 
         e.server.tell(`| §6Goooood morning, Rancher!`)
         // run first daily updates, unsure if this should stay on first day
@@ -35,14 +34,13 @@ ItemEvents.firstLeftClicked('minecraft:diamond_sword', e => {
 // Checking if daily updates should run
 ServerEvents.tick(e => {
     try {
-        e.server.persistentData['reset_cooldown'] -= 1
         if (Utils.server.tickCount % 20 != 0) { return } // update once a second
+        let dayTime = e.server.getLevel('minecraft:overworld').dayTime()
+        let morningModulo = dayTime % 24000 // "6 am" every minecraft day
 
-        if (e.server.persistentData['reset_cooldown'] <= 0) { // reset once a day
-            dailyUpdates(e) // run daily updates
-            e.server.persistentData['reset_cooldown'] = 24000
-        }
+        if (!(morningModulo >= 0 && morningModulo < 20)) { return }
 
+        dailyUpdates(e) // run daily updates
     } catch (err) {
         console.error(err)
     }
