@@ -454,7 +454,7 @@ ServerEvents.recipes(e => {
             .id(`kubejs:mbd2/slime_breeder/real/${recipeName}`)
         // real recipe item input
         if (recipeData.itemIn) {
-            if (recipeData.itemIn.chance) recipe.chance(recipeData.itemIn.chance)
+            if (recipeData.itemIn.chance) { recipe.chance(recipeData.itemIn.chance) }
             recipe.inputItems(recipeData.itemIn.item)
         }
 

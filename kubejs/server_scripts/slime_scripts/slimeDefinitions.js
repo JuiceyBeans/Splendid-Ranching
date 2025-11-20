@@ -300,7 +300,7 @@ global.slimeDefinitionsData = {
         name: "Forge",
         color: "#705d50",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:lava"
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.forge",
@@ -503,7 +503,7 @@ global.slimeDefinitionsData = {
         name: "Magnetic",
         color: "#2b3650",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:quarry_smasher"
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.magnetic",
