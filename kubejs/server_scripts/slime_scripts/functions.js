@@ -1,3 +1,4 @@
+// main daily update functions to run
 function dailyUpdates(e) {
     let dailySoldPlorts = e.server.persistentData['daily_sold_plorts']
     let dailySoldTotal = e.server.persistentData['daily_sold_total']

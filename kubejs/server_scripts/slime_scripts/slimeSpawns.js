@@ -9,7 +9,7 @@ const slimeBiomeList = {
     "alexscaves:abyssal_chasm": ["abyssal", "ocean"],
     "alexscaves:candy_cavity": ["slimy", "orby", "sweet", "candy"],
     "alexscaves:forlorn_hollows": ["puddle", "monster", "lush", "forlorn"],
-    "alexscaves:magnetic_caves": ["rocky", "monter", "crystal", "neodymium"],
+    "alexscaves:magnetic_caves": ["rocky", "monster", "crystal", "neodymium"],
     "alexscaves:primordial_caves": ["lush", "fire", "tabby", "jurassic"],
     "alexscaves:toxic_caves": ["rocky", "monster", "orby", "dusty", "crystal", "rad"]
 }
