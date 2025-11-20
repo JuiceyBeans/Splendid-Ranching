@@ -4034,6 +4034,44 @@
             ]
         },
         {
+            "pakku_id": "gyFKh534MnZTLmEu",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "multiblocked2"
+            },
+            "name": {
+                "curseforge": "Multiblocked2"
+            },
+            "id": {
+                "curseforge": "1104057"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "multiblocked2-1.20.1-1.0.37.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7237/964/multiblocked2-1.20.1-1.0.37.jar",
+                    "id": "7237964",
+                    "parent_id": "1104057",
+                    "hashes": {
+                        "sha1": "57b37144e27828ad5271c17ec87e87fdc9abcf35",
+                        "md5": "46f47f8c083d1e0f338325d205574259"
+                    },
+                    "required_dependencies": [
+                        "626676"
+                    ],
+                    "size": 1457940,
+                    "date_published": "2025-11-19T06:54:49.617Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "FmOAmZ1QWGKpFkVh",
             "type": "MOD",
             "slug": {
