@@ -2264,6 +2264,42 @@
             ]
         },
         {
+            "pakku_id": "9D0hDoNOfv6VrV6S",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "extreme-sound-muffler"
+            },
+            "name": {
+                "curseforge": "Extreme sound muffler - (Neo)Forge"
+            },
+            "id": {
+                "curseforge": "363363"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6526/566/ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar",
+                    "id": "6526566",
+                    "parent_id": "363363",
+                    "hashes": {
+                        "sha1": "1c7a54e1727f2ae4b1f18e1d7feb94a38e87d00f",
+                        "md5": "3727846f67248980ac39b92464c627f2"
+                    },
+                    "required_dependencies": [],
+                    "size": 267731,
+                    "date_published": "2025-05-13T17:40:31.427Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "nCmxosmzVkhAJVLK",
             "pakku_links": [
                 "cWaWDFhXMuQiyw9m"
@@ -2813,6 +2849,43 @@
                     ],
                     "size": 345173,
                     "date_published": "2025-05-09T15:31:57.477Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "hRai93HZlwMANrmf",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "forgery"
+            },
+            "name": {
+                "curseforge": "Forgery"
+            },
+            "id": {
+                "curseforge": "434087"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "forgery-3.6.5+1.20.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7051/720/forgery-3.6.5+1.20.jar",
+                    "id": "7051720",
+                    "parent_id": "434087",
+                    "hashes": {
+                        "sha1": "f2c7fb0ebafaa5120471fcafd6d5d06fb49aba41",
+                        "md5": "d675fee3fa6b2e1cd360505a7851d8e2"
+                    },
+                    "required_dependencies": [],
+                    "size": 1513755,
+                    "date_published": "2025-10-01T01:50:17.703Z"
                 }
             ]
         },
