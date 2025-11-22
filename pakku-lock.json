@@ -934,6 +934,46 @@
             ]
         },
         {
+            "pakku_id": "KaR5NeuxitXwGaNO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cloudflared"
+            },
+            "name": {
+                "curseforge": "Cloudflared"
+            },
+            "id": {
+                "curseforge": "1005516"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Cloudflared-19.2.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5273/798/Cloudflared-19.2.1-forge.jar",
+                    "id": "5273798",
+                    "parent_id": "1005516",
+                    "hashes": {
+                        "sha1": "91e6bfe3a3a5bf8eda32f99c2f8a4673d05c5ed9",
+                        "md5": "7c5add8bed42ea6c53e420e1b91a504d"
+                    },
+                    "required_dependencies": [],
+                    "size": 338314,
+                    "date_published": "2024-04-19T06:18:56.747Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "AOLaZclDTVOb9eNL",
             "type": "MOD",
             "slug": {
@@ -1623,6 +1663,42 @@
             ]
         },
         {
+            "pakku_id": "B4eu5wkhhUT9Y89Z",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-enchantment-industry"
+            },
+            "name": {
+                "curseforge": "Create: Enchantment Industry"
+            },
+            "id": {
+                "curseforge": "688768"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6652/836/create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+                    "id": "6652836",
+                    "parent_id": "688768",
+                    "hashes": {
+                        "sha1": "06fbad254100a7c9fcf829e1e33c5348d9799a87",
+                        "md5": "6f5f44bb2db0d2916a8ce3e60dae02cf"
+                    },
+                    "required_dependencies": [],
+                    "size": 488060,
+                    "date_published": "2025-06-15T02:30:24.407Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PYzTAaTvvtTTXzR1",
             "type": "MOD",
             "slug": {
@@ -1965,6 +2041,43 @@
             ]
         },
         {
+            "pakku_id": "j8baivCIhiKYUYdQ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "detected-setblock-be-gone"
+            },
+            "name": {
+                "curseforge": "Detected setBlock Be Gone"
+            },
+            "id": {
+                "curseforge": "942945"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dsbg-1.0-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4907/288/dsbg-1.0-1.20.1.jar",
+                    "id": "4907288",
+                    "parent_id": "942945",
+                    "hashes": {
+                        "sha1": "349a91654be8df6af5a19b02c7bb47758c09bac4",
+                        "md5": "143f9fe8813d87e3e2f3d93b4e159643"
+                    },
+                    "required_dependencies": [],
+                    "size": 273328,
+                    "date_published": "2023-11-27T22:50:51.187Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "o7fKM0vGj6LUsJEg",
             "type": "MOD",
             "slug": {
@@ -2074,6 +2187,47 @@
                     ],
                     "size": 114588,
                     "date_published": "2025-01-06T18:52:34.907Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8peXQSB4keyR0e4u",
+            "pakku_links": [
+                "9kGRA1IjI2giZuiB"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "easy-magic"
+            },
+            "name": {
+                "curseforge": "Easy Magic"
+            },
+            "id": {
+                "curseforge": "456239"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4658/750/EasyMagic-v8.0.1-1.20.1-Forge.jar",
+                    "id": "4658750",
+                    "parent_id": "456239",
+                    "hashes": {
+                        "sha1": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b",
+                        "md5": "4818f5240dc07c9da2fafe9b1c344305"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 115947,
+                    "date_published": "2023-07-22T19:00:55.413Z"
                 }
             ]
         },
@@ -2697,6 +2851,43 @@
                     "required_dependencies": [],
                     "size": 9835,
                     "date_published": "2024-05-27T10:44:41.997Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "urb8H3JooFqIFwOy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "feature-recycler"
+            },
+            "name": {
+                "curseforge": "Feature Recycler"
+            },
+            "id": {
+                "curseforge": "1077985"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Feature-Recycler-forge-1.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5610/347/Feature-Recycler-forge-1.0.1.jar",
+                    "id": "5610347",
+                    "parent_id": "1077985",
+                    "hashes": {
+                        "sha1": "09cc3ac393731861427da593a54fe5628d44eab7",
+                        "md5": "00a678294740ecb2e6f898cb64a91cf6"
+                    },
+                    "required_dependencies": [],
+                    "size": 10082,
+                    "date_published": "2024-08-09T05:36:47.843Z"
                 }
             ]
         },
@@ -3689,6 +3880,42 @@
                     "required_dependencies": [],
                     "size": 178625,
                     "date_published": "2023-11-23T00:33:22.407Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "A6Nun573vZE0eQVE",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "log-begone"
+            },
+            "name": {
+                "curseforge": "Log Begone"
+            },
+            "id": {
+                "curseforge": "623560"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Log-Begone-Forge-1.20.1-1.0.8.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4583/425/Log-Begone-Forge-1.20.1-1.0.8.jar",
+                    "id": "4583425",
+                    "parent_id": "623560",
+                    "hashes": {
+                        "sha1": "3b9f1c7fea5e0bdbc6f06429e147bd0a7c08663d",
+                        "md5": "694cfbc14ffff6166786fbaf05b1382e"
+                    },
+                    "required_dependencies": [],
+                    "size": 58508,
+                    "date_published": "2023-06-12T23:18:59.260Z"
                 }
             ]
         },
@@ -4775,6 +5002,42 @@
                     ],
                     "size": 2365466,
                     "date_published": "2024-04-01T14:08:56.003Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9kGRA1IjI2giZuiB",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "puzzles-lib"
+            },
+            "name": {
+                "curseforge": "Puzzles Lib"
+            },
+            "id": {
+                "curseforge": "495476"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6918/565/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+                    "id": "6918565",
+                    "parent_id": "495476",
+                    "hashes": {
+                        "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
+                        "md5": "19f23e3040eaadc7c30ae38f5a3dec68"
+                    },
+                    "required_dependencies": [],
+                    "size": 1342987,
+                    "date_published": "2025-08-23T12:27:32.200Z"
                 }
             ]
         },
