@@ -1,0 +1,264 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              1.5,
+              2
+            ],
+            "erosion": 0,
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          },
+          "biome": "splendid_ranching:slimey_sea"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          },
+          "biome": "splendid_ranching:indigo_quarry"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": 0,
+            "offset": 0
+          },
+          "biome": "splendid_ranching:opal_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              -1,
+              0
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          },
+          "biome": "splendid_ranching:magma_mounts"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              -1,
+              0
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": 0,
+            "offset": 0
+          },
+          "biome": "splendid_ranching:moss_blanket"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0,
+              0.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              -2,
+              2
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "depth": 0,
+            "offset": 0
+          },
+          "biome": "splendid_ranching:dry_reef"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              1.5,
+              2
+            ],
+            "erosion": 0,
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": -1,
+            "offset": 0
+          },
+          "biome": "alexscaves:abyssal_chasm"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": -1,
+            "offset": 0
+          },
+          "biome": "alexscaves:magnetic_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": -1,
+            "offset": 0
+          },
+          "biome": "alexscaves:candy_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              -1,
+              0
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": -1,
+            "offset": 0
+          },
+          "biome": "alexscaves:toxic_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0.5,
+              1.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              -1,
+              0
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": -1,
+            "offset": 0
+          },
+          "biome": "alexscaves:primordial_caves"
+        },
+        {
+          "parameters": {
+            "weirdness": 0,
+            "continentalness": [
+              0,
+              0.5
+            ],
+            "erosion": 0,
+            "temperature": [
+              -2,
+              2
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "depth": -1,
+            "offset": 0
+          },
+          "biome": "alexscaves:forlorn_hollows"
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "settings": "minecraft:overworld",
+    "type": "minecraft:noise"
+  }
+}
