@@ -577,6 +577,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "003F357DB2296E3C"
 				item: "numismatics:crown"
 				type: "item"
@@ -602,6 +603,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "5E852FD693C40365"
 				item: "numismatics:sun"
 				type: "item"
@@ -655,22 +657,12 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					disable_toast: true
-					id: "19B1E94257BCFEC0"
-					item: "numismatics:cog"
-					match_nbt: false
-					only_from_crafting: false
-					type: "item"
-				}
-				{
-					id: "79051F0754C38E7F"
-					item: "numismatics:crown"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "79051F0754C38E7F"
+				item: "numismatics:crown"
+				type: "item"
+			}]
 			title: "&f Efficiency T3 | &6512&a☻"
 			x: -10.5d
 			y: -0.5d
@@ -692,6 +684,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "0B9CEC4D50CD4700"
 				item: "numismatics:sun"
 				type: "item"
@@ -746,6 +739,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "10A9E6398EB69970"
 				item: "numismatics:crown"
 				type: "item"
@@ -771,6 +765,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "4D585A6D47194607"
 				item: "numismatics:sun"
 				type: "item"
@@ -825,6 +820,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "785666FD890CF50C"
 				item: "numismatics:crown"
 				type: "item"
@@ -850,6 +846,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "2EEE5FAB8FD0F369"
 				item: "numismatics:sun"
 				type: "item"
@@ -1125,6 +1122,7 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
+				consume_items: true
 				id: "13EFB61BA77F5B99"
 				item: "numismatics:sun"
 				task_screen_only: true
