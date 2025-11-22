@@ -410,6 +410,7 @@
 				id: "5869466E7FCEC572"
 				type: "biome"
 			}]
+			title: "Dry Reef"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -422,6 +423,7 @@
 				id: "4F27A1EADF61138F"
 				type: "biome"
 			}]
+			title: "Indigo Quarry"
 			x: 1.0d
 			y: -3.0d
 		}
@@ -434,6 +436,7 @@
 				id: "72027597A876DF6D"
 				type: "biome"
 			}]
+			title: "Magma Mounts"
 			x: 1.0d
 			y: -4.0d
 		}
@@ -446,6 +449,7 @@
 				id: "19F74D6BDABB8E58"
 				type: "biome"
 			}]
+			title: "Moss Blanket"
 			x: 1.0d
 			y: -5.0d
 		}
@@ -458,6 +462,7 @@
 				id: "5CBEB6B3CA65C806"
 				type: "biome"
 			}]
+			title: "Opal Desert"
 			x: 1.0d
 			y: -6.0d
 		}
@@ -470,6 +475,7 @@
 				id: "24F7511CCDD29A71"
 				type: "biome"
 			}]
+			title: "Slimey Sea"
 			x: 1.0d
 			y: -7.0d
 		}
@@ -899,6 +905,7 @@
 				id: "7405ABD15BA806A1"
 				type: "biome"
 			}]
+			title: "Candy Cavity"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -911,6 +918,7 @@
 				id: "7DB2E98BB3A24785"
 				type: "biome"
 			}]
+			title: "Forlorn Hollows"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -923,6 +931,7 @@
 				id: "5D5B0486C7F6B6E3"
 				type: "biome"
 			}]
+			title: "Magnetic Caves"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -935,6 +944,7 @@
 				id: "26035FDD5760A492"
 				type: "biome"
 			}]
+			title: "Primordial Caves"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -947,6 +957,7 @@
 				id: "0E702DCFBC41FDB3"
 				type: "biome"
 			}]
+			title: "Toxic Caves"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -959,6 +970,7 @@
 				id: "7B38CC71750C5317"
 				type: "biome"
 			}]
+			title: "Abyssal Chasm"
 			x: 0.0d
 			y: -7.0d
 		}
@@ -2134,6 +2146,7 @@
 				to_observe: "minecraft:sheep"
 				type: "observation"
 			}]
+			title: "Sheep"
 			x: 10.0d
 			y: -5.0d
 		}
@@ -2148,6 +2161,7 @@
 				to_observe: "minecraft:pig"
 				type: "observation"
 			}]
+			title: "Pig"
 			x: 11.0d
 			y: -5.0d
 		}
@@ -2162,6 +2176,7 @@
 				to_observe: "minecraft:cow"
 				type: "observation"
 			}]
+			title: "Cow"
 			x: 10.0d
 			y: -4.0d
 		}
@@ -2176,6 +2191,7 @@
 				to_observe: "minecraft:chicken"
 				type: "observation"
 			}]
+			title: "Chicken"
 			x: 11.0d
 			y: -3.0d
 		}
@@ -2190,6 +2206,7 @@
 				to_observe: "minecraft:rabbit"
 				type: "observation"
 			}]
+			title: "Rabbit"
 			x: 10.0d
 			y: -6.0d
 		}

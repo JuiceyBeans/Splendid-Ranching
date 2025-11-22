@@ -1122,7 +1122,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "minecraft:textures/gui/sprites/icon/checkmark.png"
+					Icon: "minecraft:textures/gui/checkmark.png"
 				}
 			}
 			id: "7E3762303FE74E8F"
