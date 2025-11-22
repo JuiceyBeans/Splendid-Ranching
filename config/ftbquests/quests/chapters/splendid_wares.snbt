@@ -577,15 +577,11 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "5F91FAB56311D81A"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "003F357DB2296E3C"
+				item: "numismatics:crown"
 				type: "item"
 			}]
-			title: "&f Radius T2 | &664&a☻"
+			title: "&f Radius T2 | &6512&a☻"
 			x: -12.5d
 			y: -0.5d
 		}
@@ -606,15 +602,11 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "41965365733EDA78"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "5E852FD693C40365"
+				item: "numismatics:sun"
 				type: "item"
 			}]
-			title: "&f Radius T3 | &664&a☻"
+			title: "&f Radius T3 | &64096&a☻"
 			x: -12.0d
 			y: 0.5d
 		}
@@ -663,16 +655,23 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "19B1E94257BCFEC0"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
-				type: "item"
-			}]
-			title: "&f Efficiency T3 | &664&a☻"
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "19B1E94257BCFEC0"
+					item: "numismatics:cog"
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "79051F0754C38E7F"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			title: "&f Efficiency T3 | &6512&a☻"
 			x: -10.5d
 			y: -0.5d
 		}
@@ -693,15 +692,11 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "187C9A1DBBA83127"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "0B9CEC4D50CD4700"
+				item: "numismatics:sun"
 				type: "item"
 			}]
-			title: "&f Efficiency T5 | &664&a☻"
+			title: "&f Efficiency T5 | &64096&a☻"
 			x: -10.0d
 			y: 0.5d
 		}
@@ -751,15 +746,11 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "16D019748A396708"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "10A9E6398EB69970"
+				item: "numismatics:crown"
 				type: "item"
 			}]
-			title: "&f Range T2 | &664&a☻"
+			title: "&f Range T2 | &6512&a☻"
 			x: -11.5d
 			y: -0.5d
 		}
@@ -780,15 +771,11 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "59053230D207E3F7"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "4D585A6D47194607"
+				item: "numismatics:sun"
 				type: "item"
 			}]
-			title: "&f Range T3 | &664&a☻"
+			title: "&f Range T3 | &64096&a☻"
 			x: -11.0d
 			y: 0.5d
 		}
@@ -838,15 +825,11 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "49E0618ACACCDA0B"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "785666FD890CF50C"
+				item: "numismatics:crown"
 				type: "item"
 			}]
-			title: "&f Battery T2 | &664&a☻"
+			title: "&f Battery T2 | &6512&a☻"
 			x: -13.5d
 			y: -0.5d
 		}
@@ -867,15 +850,11 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "73BA18DD11DBCDDB"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "2EEE5FAB8FD0F369"
+				item: "numismatics:sun"
 				type: "item"
 			}]
-			title: "&f Battery T3 | &664&a☻"
+			title: "&f Battery T3 | &64096&a☻"
 			x: -13.0d
 			y: 0.5d
 		}
