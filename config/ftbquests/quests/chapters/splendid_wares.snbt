@@ -54,7 +54,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "615DEF6DEB4ADE77"
-				item: "splendid_slimes:slime_vac"
+				item: "splendid_slimes:slime_incubator"
 				team_reward: false
 				type: "item"
 			}]
@@ -64,12 +64,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "678A48C562AF3BE6"
-				item: "numismatics:cog"
+				item: "numismatics:crown"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
+			title: "&f Incubator | &6512&a☻"
 			x: -5.0d
 			y: -5.5d
 		}
@@ -93,12 +93,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "08F18951A676280B"
-				item: "numismatics:cog"
+				item: "numismatics:crown"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Plort Press | &664&a☻"
+			title: "&f Plort Press | &6512&a☻"
 			x: -6.0d
 			y: -5.5d
 		}
@@ -120,6 +120,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 4L
 				disable_toast: true
 				id: "43CCE7B6ADDCCB51"
 				item: "numismatics:cog"
@@ -127,7 +128,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Plort Rippit | &664&a☻"
+			title: "&f Plort Rippit | &6256&a☻"
 			x: -5.5d
 			y: -4.5d
 		}
@@ -150,13 +151,14 @@
 			tasks: [{
 				consume_items: true
 				disable_toast: true
+				icon: "numismatics:crown"
 				id: "7B095F39864F16D3"
 				item: "numismatics:cog"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Feeder | &664&a☻"
+			title: "&f Slime Feeder | &6512&a☻"
 			x: -5.0d
 			y: -3.5d
 		}
@@ -178,6 +180,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 4L
 				disable_toast: true
 				id: "5BB4D92E785DF15F"
 				item: "numismatics:cog"
@@ -185,9 +188,9 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
-			x: -4.0d
-			y: -3.5d
+			title: "&f Animal Feeder | &6256&a☻"
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -203,6 +206,7 @@
 				team_reward: false
 				type: "item"
 			}]
+			secret: true
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -215,8 +219,8 @@
 				type: "item"
 			}]
 			title: "&f Automatic Plort Sales Terminal | &664&a☻"
-			x: -4.0d
-			y: 0.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -236,16 +240,17 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 2L
 				disable_toast: true
 				id: "3FF336DCC83E2CEE"
-				item: "numismatics:cog"
+				item: "numismatics:crown"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Fusion Breeder | &664&a☻"
-			x: -4.5d
-			y: -0.5d
+			title: "&f Slime Fusion Breeder | &61024&a☻"
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -265,6 +270,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 4L
 				disable_toast: true
 				id: "65DDB39FC0DA14E4"
 				item: "numismatics:cog"
@@ -272,9 +278,9 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Plort Sales Terminal | &664&a☻"
-			x: -5.0d
-			y: 0.5d
+			title: "&f Plort Sales Terminal | &6256&a☻"
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -287,7 +293,7 @@
 				exclude_from_claim_all: true
 				icon: "numismatics:bank_terminal"
 				id: "016C4CD0FF4835A9"
-				item: "splendid_slimes:slime_vac"
+				item: "numismatics:bank_terminal"
 				team_reward: false
 				type: "item"
 			}]
@@ -295,6 +301,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 4L
 				disable_toast: true
 				id: "05F0D0563A4EEBAA"
 				item: "numismatics:cog"
@@ -302,7 +309,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Bank Terminal | &664&a☻"
+			title: "&f Bank Terminal | &6256&a☻"
 			x: -5.0d
 			y: -1.5d
 		}
@@ -316,7 +323,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "4154E63BAAD00519"
-				item: "splendid_slimes:slime_vac"
+				item: "numismatics_utils:portable_bank_terminal"
 				team_reward: false
 				type: "item"
 			}]
@@ -326,12 +333,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "2C549271E8A67E75"
-				item: "numismatics:cog"
+				item: "numismatics:sun"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Portable Bank Terminal | &664&a☻"
+			title: "&f Portable Bank Terminal | &64096&a☻"
 			x: -5.5d
 			y: -0.5d
 		}
@@ -345,7 +352,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "00A93E075E5FF502"
-				item: "splendid_slimes:slime_vac"
+				item: "numismatics:banking_guide"
 				team_reward: false
 				type: "item"
 			}]
@@ -353,6 +360,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 2L
 				disable_toast: true
 				id: "4987A1FA05E4F412"
 				item: "numismatics:cog"
@@ -360,9 +368,9 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Slime Vac | &664&a☻"
-			x: -6.0d
-			y: 0.5d
+			title: "&f Banking Guide | &6128&a☻"
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -437,15 +445,30 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "1798B6F9C17E3E66"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "1798B6F9C17E3E66"
+					item: "numismatics:cog"
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "210D79F1C3857744"
+					item: {
+						Count: 1
+						id: "mininggadgets:mininggadget_simple"
+						tag: {
+							battery_tier: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
 			title: "&f Mining Laser MK2 | &664&a☻"
 			x: -8.5d
 			y: -0.5d
@@ -480,15 +503,30 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "328E6D60C7F0A704"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "328E6D60C7F0A704"
+					item: "numismatics:cog"
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3E2861B45A917B9A"
+					item: {
+						Count: 1
+						id: "mininggadgets:mininggadget_fancy"
+						tag: {
+							battery_tier: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
 			title: "&f Mining Laser MK3 | &664&a☻"
 			x: -8.0d
 			y: 0.5d
@@ -862,12 +900,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "0ACF40FEC6465779"
-				item: "numismatics:cog"
+				item: "numismatics:crown"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Backpack | &664&a☻"
+			title: "&f Backpack | &6512&a☻"
 			x: -9.0d
 			y: -3.5d
 		}
@@ -1108,17 +1146,14 @@
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "39855EC0A538ADDC"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
+				id: "13EFB61BA77F5B99"
+				item: "numismatics:sun"
+				task_screen_only: true
 				type: "item"
 			}]
-			title: "&f Pressurized Jetpack | &664&a☻"
-			x: -11.5d
-			y: -3.5d
+			title: "&f Pressurized Jetpack | &64096&a☻"
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -1140,14 +1175,14 @@
 				consume_items: true
 				disable_toast: true
 				id: "6C24722422CDBB6B"
-				item: "numismatics:cog"
+				item: "numismatics:crown"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Splendid Generator | &664&a☻"
+			title: "&f Splendid Generator | &6512&a☻"
 			x: -4.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -1188,7 +1223,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "40369395455346F4"
-				item: "quark:feeding_trough"
+				item: "createaddition:tesla_coil"
 				team_reward: false
 				type: "item"
 			}]
@@ -1198,12 +1233,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "294B270867D99690"
-				item: "numismatics:cog"
+				item: "numismatics:crown"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
+			title: "&f Tesla Coil | &6512&a☻"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -1217,7 +1252,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "0CE314819AA57C75"
-				item: "quark:feeding_trough"
+				item: "createaddition:connector"
 				team_reward: false
 				type: "item"
 			}]
@@ -1227,14 +1262,14 @@
 				consume_items: true
 				disable_toast: true
 				id: "6AE238ED2FC10968"
-				item: "numismatics:cog"
+				item: "numismatics:bevel"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
-			x: -2.5d
-			y: -3.5d
+			title: "&f Connector | &68&a☻"
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1246,7 +1281,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "5FE475932CD3736D"
-				item: "quark:feeding_trough"
+				item: "createaddition:festive_spool"
 				team_reward: false
 				type: "item"
 			}]
@@ -1256,14 +1291,14 @@
 				consume_items: true
 				disable_toast: true
 				id: "099A1BE7E5155460"
-				item: "numismatics:cog"
+				item: "numismatics:bevel"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
-			x: -3.0d
-			y: -4.5d
+			title: "&f Festive Spool | &664&a☻"
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1275,7 +1310,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "211729B209C9F6CF"
-				item: "quark:feeding_trough"
+				item: "createaddition:modular_accumulator"
 				team_reward: false
 				type: "item"
 			}]
@@ -1283,6 +1318,7 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 2L
 				disable_toast: true
 				id: "3A52475420A6C3BC"
 				item: "numismatics:cog"
@@ -1290,7 +1326,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
+			title: "&f Accumulator | &6128&a☻"
 			x: -3.5d
 			y: -5.5d
 		}
@@ -1304,7 +1340,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "2EED5AA0C817B0BB"
-				item: "quark:feeding_trough"
+				item: "createaddition:copper_spool"
 				team_reward: false
 				type: "item"
 			}]
@@ -1314,12 +1350,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "786220A01A263C19"
-				item: "numismatics:cog"
+				item: "numismatics:bevel"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
+			title: "&f Copper Spool | &68&a☻"
 			x: -2.0d
 			y: -4.5d
 		}
@@ -1333,7 +1369,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "4FE4F2C558138B1F"
-				item: "quark:feeding_trough"
+				item: "createaddition:small_light_connector"
 				team_reward: false
 				type: "item"
 			}]
@@ -1343,12 +1379,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "525714B929648E9C"
-				item: "numismatics:cog"
+				item: "numismatics:bevel"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
+			title: "&f Light Connector | &68&a☻"
 			x: -1.5d
 			y: -3.5d
 		}
@@ -1362,7 +1398,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "074C1E99F23B3D1A"
-				item: "quark:feeding_trough"
+				item: "createaddition:spool"
 				team_reward: false
 				type: "item"
 			}]
@@ -1370,14 +1406,15 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
+				count: 4L
 				disable_toast: true
 				id: "03878FF95FE778FE"
-				item: "numismatics:cog"
+				item: "numismatics:spur"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
+			title: "&f Empty Spool | &64&a☻"
 			x: -1.0d
 			y: -4.5d
 		}
@@ -1391,7 +1428,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "5A8B59A827D6B0A5"
-				item: "quark:feeding_trough"
+				item: "createaddition:redstone_relay"
 				team_reward: false
 				type: "item"
 			}]
@@ -1401,12 +1438,12 @@
 				consume_items: true
 				disable_toast: true
 				id: "62ED982C0C918765"
-				item: "numismatics:cog"
+				item: "numismatics:sprocket"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
+			title: "&f Animal Feeder | &616&a☻"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -1420,7 +1457,7 @@
 				auto: "disabled"
 				exclude_from_claim_all: true
 				id: "361DF6C63B589A9E"
-				item: "quark:feeding_trough"
+				item: "createaddition:digital_adapter"
 				team_reward: false
 				type: "item"
 			}]
@@ -1430,14 +1467,409 @@
 				consume_items: true
 				disable_toast: true
 				id: "5B3940D25D600900"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Digital Adapter | &6512&a☻"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "buildinggadgets2:gadget_building"
+			id: "1B2AF2CD02A57172"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "75512EB35FF834A7"
+				item: "buildinggadgets2:gadget_building"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3F2912FA72549AA1"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Building Gadget | &6512&a☻"
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "buildinggadgets2:gadget_exchanging"
+			id: "675C1B82D56C81FE"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "76D688849B4673E5"
+				item: "buildinggadgets2:gadget_exchanging"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "760523D56C03568A"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Exchanging Gadget | &6512&a☻"
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_copy_paste"
+				tag: { }
+			}
+			id: "288EB1E42B48396C"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "3459C9F887BD63A3"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1F4E314FEEA5C381"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Copy Paste Gadget | &6512&a☻"
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_cut_paste"
+				tag: {
+					pastereplace: 1b
+				}
+			}
+			id: "504F825F5CBB18F1"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "469E7FFC8703C1F4"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0CFCC772FC3B6B5F"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Cut Paste Gadget | &6512&a☻"
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "buildinggadgets2:gadget_destruction"
+			id: "74286105E29E375B"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "4C825C027C486039"
+				item: "buildinggadgets2:gadget_destruction"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5D20495B709FF45D"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Destruction Gadget | &6512&a☻"
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "buildinggadgets2:template_manager"
+			id: "30E586F7DD0FD169"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "3EF5876D7110F1D0"
+				item: "buildinggadgets2:template_manager"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "38C95A88467553A0"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Template Manager | &6512&a☻"
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "numismatics:magenta_card"
+			id: "0835DDD5AACC6C8D"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "36E884406651BF96"
+				item: "numismatics:magenta_card"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				disable_toast: true
+				id: "404FCED12BC61035"
 				item: "numismatics:cog"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &664&a☻"
+			title: "&f Bank Card | &6128&a☻"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "splendid_slimes:slime_vac"
+			id: "659AEA3B642884B1"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "12C897174B11244C"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "30B53374172E2550"
+					item: { Count: 4, id: "splendid_slimes:plort" }
+					match_nbt: false
+					type: "item"
+				}
+				{
+					elapsedTime: 3600L
+					gameTime: "game"
+					id: "4C1C5F7259565780"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&f Slime Vac | &64&r &ePlorts"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"52D66243AA5C9C74"
+				"7E3B035C6E02A4F0"
+			]
+			disable_toast: true
+			icon: "splendid_slimes:rocket_pod"
+			id: "1679AFF70915F34A"
+			rewards: [{
+				auto: "disabled"
+				count: 32
+				exclude_from_claim_all: true
+				id: "28A15D5BCB22AD1F"
+				item: "splendid_slimes:rocket_pod"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "20AE7FA3716D879A"
+				item: "numismatics:spur"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Rocket Pod | &64&a☻&r/&f32"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "alexscaves:rainbounce_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "262F2407F4D3AAD4"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "71A81E5383DBA590"
+				item: {
+					Count: 1
+					id: "alexscaves:rainbounce_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10
+						}]
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "139A1F1454A6F051"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Rainbounce Boots | &6512&a☻"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "alexscaves:candy_cane_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31DBC95864CE6F0B"
+			rewards: [{
+				id: "779029CFD344F85D"
+				item: {
+					Count: 1
+					id: "alexscaves:candy_cane_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				disable_toast: true
+				id: "73469888D7F2C03C"
+				item: "numismatics:crown"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Candycane Hook | &61024&a☻"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "7E3B035C6E02A4F0"
+			tasks: [{
+				id: "5F82CE53544DD50B"
+				item: {
+					Count: 1
+					id: "alexscaves:rainbounce_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stay safe..."
 			x: -1.5d
-			y: -5.5d
+			y: -1.5d
 		}
 	]
 	title: "&a Splendid Wares"

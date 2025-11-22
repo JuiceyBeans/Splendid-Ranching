@@ -1,0 +1,17 @@
+// removing recipes for items that are probably purchased
+ServerEvents.recipes(e => {
+    e.remove({ output: 'mininggadgets:mininggadget_simple' })
+    e.remove({ output: 'mininggadgets:mininggadget_fancy' })
+    e.remove({ output: 'mininggadgets:upgrade_battery_1' })
+    e.remove({ output: 'mininggadgets:upgrade_battery_2' })
+    e.remove({ output: 'mininggadgets:upgrade_battery_3' })
+    e.remove({ output: 'mininggadgets:upgrade_efficiency_1' })
+    e.remove({ output: 'mininggadgets:upgrade_efficiency_3' })
+    e.remove({ output: 'mininggadgets:upgrade_efficiency_5' })
+    e.remove({ output: 'mininggadgets:upgrade_range_1' })
+    e.remove({ output: 'mininggadgets:upgrade_range_2' })
+    e.remove({ output: 'mininggadgets:upgrade_range_3' })
+    e.remove({ output: 'mininggadgets:upgrade_size_1' })
+    e.remove({ output: 'mininggadgets:upgrade_size_2' })
+    e.remove({ output: 'mininggadgets:upgrade_size_3' })
+})

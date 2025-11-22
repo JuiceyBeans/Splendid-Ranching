@@ -1,0 +1,16 @@
+// removing recipes for items that are probably purchased
+ServerEvents.recipes(e => {
+    e.remove({ output: 'sophisticatedbackpacks:backpack' })
+    e.remove({ output: 'sophisticatedbackpacks:copper_backpack' })
+    e.remove({ output: 'sophisticatedbackpacks:iron_backpack' })
+    e.remove({ output: 'sophisticatedbackpacks:gold_backpack' })
+    e.remove({ output: 'sophisticatedbackpacks:diamond_backpack' })
+    e.remove({ output: 'sophisticatedbackpacks:netherite_backpack' })
+    e.remove({ output: 'sophisticatedbackpacks:restock_upgrade' })
+    e.remove({ output: 'sophisticatedbackpacks:deposit_upgrade' })
+    e.remove({ output: 'sophisticatedbackpacks:filter_upgrade' })
+    e.remove({ output: 'sophisticatedbackpacks:void_upgrade' })
+    e.remove({ output: 'sophisticatedbackpacks:pickup_upgrade' })
+    e.remove({ output: 'sophisticatedbackpacks:battery_upgrade' })
+    e.remove({ output: 'sophisticatedbackpacks:feeding_upgrade' })
+})
